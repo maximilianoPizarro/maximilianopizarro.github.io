@@ -63,11 +63,21 @@ Jekyll::Hooks.register :site, :post_write do |site|
   end
 
   site.pages.each do |page|
+    next if page.url.nil?
     next if page.url == '/search-index.json' || page.url == '/search.json'
-    next unless page.layout == 'default'
-    next if page.url == '/' || page.url.nil?
+    next unless page.data['layout'] == 'default'
+    next if page.url == '/'
 
-    add_entry.call(page.title, page.description, page.url, [], 'page')
+    title = page.data['title']
+    next if title.nil? || title.empty?
+
+    add_entry.call(
+      title,
+      page.data['description'],
+      page.url,
+      [],
+      'page'
+    )
   end
 
   dest = File.join(site.dest, 'search-index.json')

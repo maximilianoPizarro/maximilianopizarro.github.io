@@ -42,6 +42,7 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
       <span class="tech-badge">MCP</span>
       <span class="tech-badge">Service Mesh</span>
       <span class="tech-badge">Quarkus</span>
+      <span class="tech-badge">Go</span>
       <span class="tech-badge">Tekton</span>
       <span class="tech-badge">Argo CD</span>
       <span class="tech-badge">Connectivity Link</span>

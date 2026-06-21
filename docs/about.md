@@ -63,7 +63,7 @@ permalink: /about/
             <h3>Development</h3>
             <ul>
               <li>Java, Quarkus, Spring Boot</li>
-              <li>Node.js & TypeScript</li>
+              <li>Go, Node.js & TypeScript</li>
               <li>Python & AI tooling</li>
             </ul>
           </div>

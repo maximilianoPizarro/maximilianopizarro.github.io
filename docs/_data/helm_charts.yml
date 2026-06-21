@@ -20,7 +20,7 @@
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/n8n-openshift
   description: n8n workflow automation Helm Chart for Kubernetes and OpenShift with MCP and AI.
   tags: [n8n, Automation, MCP, OpenShift]
-  featured: false
+  featured: true
 
 - id: openshift-mcp-server
   title: OpenShift MCP Server
@@ -108,7 +108,7 @@
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/librechat-openshift
   description: Multi-model AI chat platform — LiteLLM, MCP, RAG, UBI 9.
   tags: [LibreChat, AI, Helm]
-  featured: false
+  featured: true
 
 - id: fineract-openshift
   title: Fineract OpenShift

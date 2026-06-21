@@ -24,12 +24,127 @@
   --brand-border: #3d3d3d;
   --brand-accent-soft: #3a1515;
   --brand-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  /* Remap legacy main.css tokens used as page backgrounds (not footer) */
+  --rh-white: #1e1e1e;
+  --rh-gray-100: #2b2b2b;
+  --rh-gray-200: #3d3d3d;
+}
+
+[data-theme="light"] {
+  --brand-surface: #ffffff;
+  --brand-surface-alt: #f4f4f6;
+  --brand-text: #151515;
+  --brand-text-muted: #525252;
+  --brand-border: #d2d2d2;
+  --brand-accent-soft: #fff0f0;
+  --brand-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 body.pf-v6-c-page {
   font-family: var(--font-text);
   color: var(--brand-text);
   background: var(--brand-surface);
+  /* Portfolio uses document scroll — not PatternFly's nested 100vh page chrome */
+  display: block;
+  height: auto;
+  min-height: 100vh;
+  max-height: none;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: calc(var(--masthead-height) + 1rem);
+}
+
+.pf-v6-c-page__main-container,
+.main-content {
+  display: block;
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  margin-inline: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  grid-area: unset !important;
+  align-self: auto !important;
+}
+
+.pf-v6-c-page__main-section {
+  padding-block: 3rem !important;
+  padding-inline: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  color: var(--brand-text) !important;
+  gap: 0 !important;
+}
+
+.content-section,
+.about-page,
+.about-content {
+  color: var(--brand-text);
+}
+
+.page-hero__title,
+.about-intro h2,
+.about-section h2,
+.tech-category h3,
+.section-title {
+  color: var(--brand-text);
+}
+
+.page-hero__description,
+.about-description,
+.about-section p,
+.about-section li,
+.tech-category ul li,
+.org-list-compact li,
+.hero-description,
+.hero-subtitle {
+  color: var(--brand-text-muted);
+}
+
+.about-header {
+  border-bottom-color: var(--brand-border);
+}
+
+.about-section ul a {
+  color: var(--brand-accent);
+}
+
+.about-section ul a:hover {
+  color: var(--brand-accent-dark);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 3vw, 2rem);
+}
+
+img,
+video,
+iframe,
+svg,
+pre,
+table {
+  max-width: 100%;
+}
+
+.hero-text {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+.hero-title {
+  overflow-wrap: anywhere;
 }
 
 .visually-hidden {
@@ -284,10 +399,6 @@ body.pf-v6-c-page {
 }
 
 /* Sections */
-.pf-v6-c-page__main-section {
-  padding: 3rem 0;
-}
-
 .section--alt {
   background: var(--brand-surface-alt);
 }
@@ -1247,16 +1358,6 @@ body.pf-v6-c-page {
   color: #ffffff;
 }
 
-.about-section h2 {
-  color: var(--brand-text);
-}
-
-.about-description,
-.about-section p,
-.org-list-compact li {
-  color: var(--brand-text-muted);
-}
-
 .about-company {
   color: var(--brand-accent);
 }
@@ -1274,4 +1375,80 @@ body.pf-v6-c-page {
 .sponsor-card__actions .pf-v6-c-button.pf-m-secondary:hover {
   color: var(--brand-accent);
   border-color: var(--brand-accent);
+}
+
+/* Dark mode — surfaces and footer (legacy main.css rh-* tokens) */
+[data-theme="dark"] body.pf-v6-c-page {
+  background-color: var(--brand-surface);
+  color: var(--brand-text);
+}
+
+[data-theme="dark"] .page-hero,
+[data-theme="dark"] .section--alt,
+[data-theme="dark"] .tech-stack,
+[data-theme="dark"] .sponsor-cta--strip,
+[data-theme="dark"] .collaborations-section,
+[data-theme="dark"] .org-contributions-section {
+  background-color: var(--brand-surface-alt);
+}
+
+[data-theme="dark"] .about-description,
+[data-theme="dark"] .about-section p,
+[data-theme="dark"] .about-section li,
+[data-theme="dark"] .tech-category ul li,
+[data-theme="dark"] .page-hero__description {
+  color: var(--brand-text-muted);
+}
+
+[data-theme="dark"] .about-intro h2,
+[data-theme="dark"] .about-section h2,
+[data-theme="dark"] .tech-category h3,
+[data-theme="dark"] .page-hero__title {
+  color: var(--brand-text);
+}
+
+[data-theme="dark"] .site-footer {
+  background-color: #121212;
+  color: var(--brand-text-muted);
+}
+
+[data-theme="dark"] .footer-section h3,
+[data-theme="dark"] .site-footer a {
+  color: var(--brand-text);
+}
+
+[data-theme="dark"] .footer-section a:hover {
+  color: var(--brand-accent);
+}
+
+[data-theme="dark"] .footer-bottom {
+  color: var(--brand-text-muted);
+  border-top-color: var(--brand-border);
+}
+
+[data-theme="dark"] .hero-section {
+  background: linear-gradient(135deg, var(--brand-surface-alt) 0%, var(--brand-surface) 100%);
+}
+
+[data-theme="dark"] .hero-title {
+  color: var(--brand-text);
+}
+
+/* Light mode — ensure readable text on white surfaces */
+[data-theme="light"] .about-description,
+[data-theme="light"] .about-section p,
+[data-theme="light"] .about-section li,
+[data-theme="light"] .tech-category ul li,
+[data-theme="light"] .page-hero__description,
+[data-theme="light"] .hero-subtitle,
+[data-theme="light"] .hero-description {
+  color: var(--brand-text-muted);
+}
+
+[data-theme="light"] .about-intro h2,
+[data-theme="light"] .about-section h2,
+[data-theme="light"] .tech-category h3,
+[data-theme="light"] .page-hero__title,
+[data-theme="light"] .hero-title {
+  color: var(--brand-text);
 }

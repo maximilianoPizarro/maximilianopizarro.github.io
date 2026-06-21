@@ -69,24 +69,28 @@ permalink: /about/
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-      {% include github-stats.html %}
+{% include github-stats.html %}
 
-      {% include org-contributions.html %}
+{% include org-contributions.html %}
 
-      {% include collaborations.html %}
+{% include collaborations.html %}
 
-      <div class="about-section" id="connect">
-        <h2>Connect</h2>
-        <p class="about-description">{{ site.contact.headline }}</p>
-        <div class="social-links-large">
-          <a href="{{ site.contact.linkedin_url }}" class="connect-btn connect-btn--primary" target="_blank" rel="noopener noreferrer">{{ site.contact.linkedin_label }}</a>
-          {% if site.author.email != "" %}
-          <a href="mailto:{{ site.author.email }}" class="connect-btn connect-btn--outline">{{ site.contact.email_label | default: "Email" }}</a>
-          {% endif %}
-          <a href="{{ site.contact.github_url }}" class="connect-btn connect-btn--outline" target="_blank" rel="noopener noreferrer">{{ site.contact.github_label }}</a>
-          <a href="https://github.com/sponsors/maximilianoPizarro" class="connect-btn connect-btn--sponsor sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">GitHub Sponsors</a>
-        </div>
+<section class="pf-v6-c-page__main-section content-section">
+  <div class="container about-page">
+    <div class="about-section" id="connect">
+      <h2>Connect</h2>
+      <p class="about-description">{{ site.contact.headline }}</p>
+      <div class="social-links-large">
+        <a href="{{ site.contact.linkedin_url }}" class="connect-btn connect-btn--primary" target="_blank" rel="noopener noreferrer">{{ site.contact.linkedin_label }}</a>
+        {% if site.author.email != "" %}
+        <a href="mailto:{{ site.author.email }}" class="connect-btn connect-btn--outline">{{ site.contact.email_label | default: "Email" }}</a>
+        {% endif %}
+        <a href="{{ site.contact.github_url }}" class="connect-btn connect-btn--outline" target="_blank" rel="noopener noreferrer">{{ site.contact.github_label }}</a>
+        <a href="https://github.com/sponsors/maximilianoPizarro" class="connect-btn connect-btn--sponsor sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">GitHub Sponsors</a>
       </div>
     </div>
   </div>

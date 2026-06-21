@@ -19,6 +19,7 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
         </p>
         <div class="hero-cta">
           <a href="{{ '/projects/' | relative_url }}" class="pf-v6-c-button pf-m-primary">Explore Projects</a>
+          <a href="{{ '/about/' | relative_url }}#connect" class="pf-v6-c-button pf-m-secondary">Contact</a>
           <a href="https://github.com/sponsors/maximilianoPizarro" class="pf-v6-c-button pf-m-secondary sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">Become a Sponsor</a>
           <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" class="pf-v6-c-button pf-m-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
@@ -55,9 +56,8 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
 <section class="pf-v6-c-page__main-section content-section">
   <div class="container">
     <div class="section-heading">
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-description">Workshops, documentation, and platform patterns for OpenShift and Application Platform.</p>
-      <a href="{{ '/projects/' | relative_url }}" class="section-link">View all projects →</a>
+      <h2 class="section-title">Flagship Projects</h2>
+      <p class="section-description">Four end-to-end platforms and workshops — installable operators, migration tooling, and reference architectures. <a href="{{ '/projects/' | relative_url }}">Browse all {{ site.data.projects.size }} projects →</a></p>
     </div>
     <div class="content-grid">
       {% for project in site.data.projects %}
@@ -69,9 +69,9 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   </div>
 </section>
 
-{% include redhat-developer-articles.html %}
+{% include home-writing-teaser.html %}
 
-<section class="pf-v6-c-page__main-section content-section section--alt">
+<section class="pf-v6-c-page__main-section content-section">
   <div class="container">
     <div class="section-heading">
       <h2 class="section-title">Operators on OperatorHub</h2>
@@ -86,7 +86,7 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   </div>
 </section>
 
-<section class="pf-v6-c-page__main-section content-section">
+<section class="pf-v6-c-page__main-section content-section section--alt">
   <div class="container">
     <div class="section-heading">
       <h2 class="section-title">Helm Charts on Artifact Hub</h2>
@@ -103,12 +103,12 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   </div>
 </section>
 
-<section class="pf-v6-c-page__main-section content-section section--alt">
+<section class="pf-v6-c-page__main-section content-section">
   <div class="container">
     <div class="section-heading">
-      <h2 class="section-title">Latest Videos</h2>
-      <p class="section-description">Demos and walkthroughs — click to play.</p>
-      <a href="{{ '/videos/' | relative_url }}" class="section-link">View all videos →</a>
+      <h2 class="section-title">Featured Videos</h2>
+      <p class="section-description">Demos and walkthroughs — thumbnails load first; video plays on click.</p>
+      <a href="{{ '/videos/' | relative_url }}" class="section-link">View all {{ site.data.videos.size }} videos →</a>
     </div>
     <div class="videos-grid videos-grid--featured">
       {% for video in site.data.videos %}
@@ -120,9 +120,12 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   </div>
 </section>
 
-<section class="achievements-section pf-v6-c-page__main-section">
+<section class="pf-v6-c-page__main-section content-section section--alt">
   <div class="container">
-    <h2 class="section-title">Certifications & Achievements</h2>
+    <div class="section-heading">
+      <h2 class="section-title">Certifications & Achievements</h2>
+      <p class="section-description">Verified badges and learning profiles across Red Hat, Microsoft, Google Cloud, and more.</p>
+    </div>
     <div class="achievements-grid">
       <a href="https://www.credly.com/users/maximiliano-pizarro/badges" class="achievement-card pf-v6-c-card" target="_blank" rel="noopener noreferrer">
         <div class="achievement-icon">🏆</div>
@@ -152,29 +155,3 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
     </div>
   </div>
 </section>
-
-<section class="pf-v6-c-page__main-section content-section">
-  <div class="container">
-    <div class="section-heading">
-      <h2 class="section-title">Latest on LinkedIn</h2>
-      <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/recent-activity/articles/" class="section-link" target="_blank" rel="noopener noreferrer">All articles →</a>
-    </div>
-    <div class="linkedin-posts-grid">
-      {% for post in site.data.linkedin_posts %}
-      <a href="{{ post.url }}" class="linkedin-post-card pf-v6-c-card" target="_blank" rel="noopener noreferrer">
-        <h3 class="linkedin-post-title">{{ post.title }}</h3>
-        <p class="linkedin-post-description">{{ post.description }}</p>
-        <div class="tag-list">
-          {% for tag in post.tags %}
-          <span class="pf-v6-c-label tag-pill">{{ tag }}</span>
-          {% endfor %}
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-{% include org-contributions.html %}
-
-{% include collaborations.html %}

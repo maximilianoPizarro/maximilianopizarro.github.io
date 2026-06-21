@@ -72,6 +72,16 @@ Jekyll::Hooks.register :site, :post_write do |site|
     )
   end
 
+  site.data['linkedin_posts']&.each do |post|
+    add_entry.call(
+      post['title'],
+      post['description'],
+      post['url'],
+      post['tags'],
+      'article'
+    )
+  end
+
   site.pages.each do |page|
     next if page.url.nil?
     next if page.url == '/search-index.json' || page.url == '/search.json'

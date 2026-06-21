@@ -11,11 +11,20 @@ google_analytics: G-Y69BN8T1E6
 # Author Information
 author:
   name: "Maximiliano Pizarro"
-  email: ""
+  email: "maximiliano.pizarro.5@gmail.com"
   github: "maximilianoPizarro"
   linkedin: "maximiliano-gregorio-pizarro-consultor-it"
   title: "Specialist Solution Architect"
   company: "Red Hat LATAM"
+
+# Contact
+contact:
+  headline: "Open to architecture discussions, consulting, and speaking opportunities."
+  email_label: "Email me"
+  linkedin_url: "https://www.linkedin.com/in/maximiliano-gregorio-pizarro-consultor-it"
+  linkedin_label: "Message on LinkedIn"
+  github_url: "https://github.com/maximilianoPizarro"
+  github_label: "GitHub profile"
 
 # Build Settings
 markdown: kramdown
@@ -68,6 +77,8 @@ navigation:
     url: /charts/
   - title: Videos
     url: /videos/
+  - title: Articles
+    url: /articles/
   - title: About
     url: /about/
   - title: Search

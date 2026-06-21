@@ -1,0 +1,41 @@
+<section class="pf-v6-c-page__main-section content-section section--alt" id="writing">
+  <div class="container">
+    <div class="section-heading">
+      <h2 class="section-title">Articles & Technical Writing</h2>
+      <p class="section-description">Published on Red Hat Developer and LinkedIn — Connectivity Link, zero trust, operators, and AI-native platform patterns.</p>
+      <a href="{{ '/articles/' | relative_url }}" class="section-link">Read all articles →</a>
+    </div>
+
+    <div class="writing-teaser-grid">
+      {% for article in site.data.redhat_developer_articles limit:2 %}
+      <article class="pf-v6-c-card content-card rh-developer-card writing-teaser-card">
+        <div class="pf-v6-c-card__header">
+          <span class="rh-developer-card__badge">Red Hat Developer</span>
+          <h3 class="content-card__title">
+            <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+          </h3>
+        </div>
+        <div class="pf-v6-c-card__body">
+          <p class="content-card__description">{{ article.description }}</p>
+        </div>
+      </article>
+      {% endfor %}
+
+      {% for post in site.data.linkedin_posts limit:2 %}
+      <a href="{{ post.url }}" class="linkedin-post-card pf-v6-c-card writing-teaser-card" target="_blank" rel="noopener noreferrer">
+        <span class="linkedin-post-card__badge">LinkedIn</span>
+        <h3 class="linkedin-post-title">{{ post.title }}</h3>
+        <p class="linkedin-post-description">{{ post.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="home-cta-banner">
+      <p class="home-cta-banner__text">Workshops, operators, Helm charts, and 20+ open-source projects — curated on dedicated pages.</p>
+      <div class="home-cta-banner__actions">
+        <a href="{{ '/articles/' | relative_url }}" class="pf-v6-c-button pf-m-primary">All articles</a>
+        <a href="{{ '/projects/' | relative_url }}" class="pf-v6-c-button pf-m-secondary">All projects</a>
+      </div>
+    </div>
+  </div>
+</section>

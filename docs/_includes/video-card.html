@@ -7,6 +7,9 @@
   </div>
   <div class="video-card__info">
     <h3 class="video-card__title">{{ video.title }}</h3>
+    {% if video.description %}
+    <p class="video-card__description">{{ video.description }}</p>
+    {% endif %}
     {% if video.tags %}
     <div class="tag-list">
       {% for tag in video.tags %}

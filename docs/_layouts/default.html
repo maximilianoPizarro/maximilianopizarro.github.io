@@ -37,6 +37,7 @@
       "jobTitle": "{{ site.author.title }}",
       "worksFor": { "@type": "Organization", "name": "{{ site.author.company }}" },
       "url": "{{ site.url }}",
+      {% if site.author.email != "" %}"email": "{{ site.author.email }}",{% endif %}
       "sameAs": [
         "https://github.com/{{ site.social.github }}",
         "https://www.linkedin.com/in/{{ site.social.linkedin }}"

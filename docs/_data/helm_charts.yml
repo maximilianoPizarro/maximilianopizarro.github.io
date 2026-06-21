@@ -1,5 +1,6 @@
 - id: openshift-integration-operator
   title: OpenShift Integration Operator
+  subtitle: Helm install chart
   url: https://artifacthub.io/packages/helm/openshift-integration-operator/openshift-integration-operator
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openshift-integration-operator
   description: Helm chart for the OpenShift Integration Operator — Apache Camel + SonataFlow lifecycle with Kaoto, Tekton, ArgoCD, and OpenTelemetry.
@@ -8,6 +9,7 @@
 
 - id: apishift
   title: ApiShift
+  subtitle: 3scale migration chart
   url: https://artifacthub.io/packages/helm/gateforge/gateforge
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/gateforge
   description: AI-powered 3scale to Connectivity Link migration platform — Quarkus, Angular 18, MCP.
@@ -16,11 +18,12 @@
 
 - id: n8n-openshift
   title: n8n OpenShift
+  subtitle: Helm chart on Artifact Hub
   url: https://artifacthub.io/packages/helm/n8n-openshift/n8n
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/n8n-openshift
-  description: n8n workflow automation Helm Chart for Kubernetes and OpenShift with MCP and AI.
+  description: Production Helm chart for n8n workflow automation on Kubernetes and OpenShift — MCP integration and AI workflows.
   tags: [n8n, Automation, MCP, OpenShift]
-  featured: true
+  featured: false
 
 - id: openshift-mcp-server
   title: OpenShift MCP Server
@@ -104,6 +107,7 @@
 
 - id: librechat-openshift
   title: LibreChat OpenShift
+  subtitle: Multi-model AI chat chart
   url: https://artifacthub.io/packages/helm/librechat-openshift/librechat
   badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/librechat-openshift
   description: Multi-model AI chat platform — LiteLLM, MCP, RAG, UBI 9.

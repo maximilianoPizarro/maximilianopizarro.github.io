@@ -1,6 +1,7 @@
 - id: apishift-demo
   youtube_id: L7euFW1kQB0
   title: ApiShift — 3scale to Connectivity Link Migration
+  description: Live demo of AI-assisted migration from Red Hat 3scale to Connectivity Link with Kuadrant policies and MCP tooling.
   category: integration
   featured: true
   tags: [ApiShift, 3scale, Connectivity Link, Kuadrant]
@@ -8,6 +9,7 @@
 - id: openshift-integration-operator
   youtube_id: Hb_YtIpe-5I
   title: OpenShift Integration Operator
+  description: Walkthrough of the Camel + SonataFlow operator — Kaoto design, Tekton/ArgoCD GitOps deploy, and OpenTelemetry observability.
   category: integration
   featured: true
   tags: [Camel, Integration, Operator, OpenShift]
@@ -92,6 +94,7 @@
 - id: video-m8d0
   youtube_id: M8D0dORuPDM
   title: MCP & AI on OpenShift
+  description: How Model Context Protocol servers extend OpenShift Lightspeed with federated tools for platform automation and AI-assisted ops.
   category: ai
   featured: true
   tags: [MCP, AI, OpenShift]

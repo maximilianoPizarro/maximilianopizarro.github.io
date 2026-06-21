@@ -7,12 +7,14 @@
     </div>
     <div class="content-grid">
       {% for article in site.data.redhat_developer_articles %}
+      {% if include.limit and forloop.index > include.limit %}{% break %}{% endif %}
       <article class="pf-v6-c-card content-card rh-developer-card">
         <div class="pf-v6-c-card__header">
           <span class="rh-developer-card__badge">Red Hat Developer</span>
           <h3 class="content-card__title">
             <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
           </h3>
+          {% if article.subtitle %}<p class="content-card__subtitle">{{ article.subtitle }}</p>{% endif %}
         </div>
         <div class="pf-v6-c-card__body">
           <p class="content-card__description">{{ article.description }}</p>

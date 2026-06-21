@@ -1,6 +1,6 @@
 - id: apishift
   title: ApiShift
-  subtitle: 3scale to Connectivity Link Migration
+  subtitle: AI-powered 3scale → Connectivity Link migration
   description: AI-powered migration platform from Red Hat 3scale to Connectivity Link (Kuadrant). Quarkus backend with MCP tool calling, Angular 18 frontend, kuadrantctl CLI integration, and shared/dual/dedicated gateway strategies.
   url: https://everything-is-code.github.io/apishift/
   category: integration
@@ -10,6 +10,7 @@
 
 - id: hybrid-mesh-platform
   title: Hybrid Mesh Platform
+  subtitle: Multi-cluster service mesh patterns
   description: Documentation and patterns for hybrid service mesh connectivity across OpenShift clusters with Gateway API, GitOps, and multi-cluster governance.
   url: https://maximilianopizarro.github.io/hybrid-mesh-platform/
   category: integration
@@ -19,21 +20,23 @@
 
 - id: golden-path-rhel-bootc
   title: RHEL VM bootc — Golden Path
+  subtitle: Developer Hub Software Template
   description: Backstage Software Template for Red Hat Developer Hub — self-service RHEL VMs on OpenShift Virtualization with GitOps, bootc image-mode RHEL, and optional Connectivity Link.
   url: https://maximilianopizarro.github.io/golden-path-rhel-bootc/
   category: platform
-  featured: true
+  featured: false
   tags: [bootc, OpenShift Virtualization, GitOps, Developer Hub]
   link_label: Read docs
 
 - id: from-3scale-connectivity-link
   title: From 3scale to Connectivity Link
-  description: Migration workshop from Red Hat 3scale API Management to Connectivity Link (Kuadrant). OIDC and API Key authentication, rate limiting, GitOps, and Developer Hub Software Template.
+  subtitle: Hands-on migration workshop
+  description: Step-by-step workshop migrating from Red Hat 3scale API Management to Connectivity Link (Kuadrant) — OIDC and API Key auth, rate limiting, GitOps, and Developer Hub Software Template.
   url: https://maximilianopizarro.github.io/from-3scale-to-connectivity-link/modules/index.html
   category: integration
   featured: true
   tags: [3scale, Connectivity Link, Kuadrant, OpenShift]
-  link_label: Read workshop
+  link_label: Start workshop
 
 - id: event-driven-architecture
   title: Event-Driven Architecture Live
@@ -54,7 +57,8 @@
   link_label: Read workshop
 
 - id: n8n-helm-chart
-  title: n8n Helm Chart for Kubernetes & OpenShift
+  title: n8n Helm Chart
+  subtitle: Documentation & deployment guide
   description: Deploy n8n workflow automation with AI capabilities, OpenShift MCP Server integration, Mailpit email testing, and Developer Sandbox support.
   url: https://maximilianopizarro.github.io/n8n-helm-chart/
   category: ai
@@ -72,16 +76,18 @@
   link_label: Read docs
 
 - id: connectivity-link-architecture
-  title: Connectivity Link — Architecture AI/MCP
-  description: Zero Trust Architecture with OpenShift GitOps, OpenShift Lightspeed, LiteLLM, MCP Gateway (38 federated tools), vLLM CPU fallback, and 17 n8n workflows.
+  title: Connectivity Link — Reference Architecture
+  subtitle: Zero Trust + MCP Gateway live demo
+  description: End-to-end reference architecture — OpenShift GitOps, OpenShift Lightspeed, LiteLLM, MCP Gateway (38 federated tools), vLLM CPU fallback, and 17 n8n workflows.
   url: https://connectivity-link-137eba.gitlab.io/architecture/
   category: security
-  featured: true
+  featured: false
   tags: [Connectivity Link, MCP Gateway, Zero Trust, OpenShift]
   link_label: View architecture
 
 - id: openshift-mcp-server
   title: OpenShift MCP Server
+  subtitle: Enterprise MCP for OpenShift Lightspeed
   description: Enterprise MCP Server for OpenShift Lightspeed — dual server deployment with 40+ tools for monitoring, deployment, and performance testing.
   url: https://maximilianopizarro.github.io/openshift-mcp-server/
   category: ai
@@ -153,8 +159,9 @@
   link_label: Read docs
 
 - id: connectivity-link
-  title: Connectivity Link
-  description: Security Microservice with Connectivity Link using OpenID Connect (OIDC). Zero Trust Architecture with OpenShift GitOps.
+  title: Connectivity Link — Security Lab
+  subtitle: OIDC microservice walkthrough
+  description: Hands-on lab building a security microservice with Connectivity Link and OpenID Connect (OIDC). Zero Trust patterns with OpenShift GitOps.
   url: https://maximilianopizarro.github.io/connectivity-link/
   category: security
   featured: false

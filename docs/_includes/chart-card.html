@@ -2,6 +2,7 @@
   <div class="pf-v6-c-card__header">
     <div class="pf-v6-c-card__title">
       <h3 class="content-card__title">{{ chart.title }}</h3>
+      {% if chart.subtitle %}<p class="content-card__subtitle">{{ chart.subtitle }}</p>{% endif %}
     </div>
   </div>
   <div class="pf-v6-c-card__body">

@@ -70,24 +70,22 @@ permalink: /about/
         </div>
       </div>
 
-      <div class="about-section">
-        <h2>Open Source Communities</h2>
-        <p>Contributions across {{ site.data.organizations.organizations.size }} GitHub organizations including operators, Helm charts, workshops, and validated patterns.</p>
-        <ul class="org-list-compact">
-          {% for org in site.data.organizations.organizations %}
-          <li><a href="{{ org.url }}" target="_blank" rel="noopener noreferrer">@{{ org.name }}</a> — {{ org.description }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
       {% include github-stats.html %}
 
-      <div class="about-section">
+      {% include org-contributions.html %}
+
+      {% include collaborations.html %}
+
+      <div class="about-section" id="connect">
         <h2>Connect</h2>
+        <p class="about-description">{{ site.contact.headline }}</p>
         <div class="social-links-large">
-          <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" class="social-link pf-v6-c-button pf-m-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/{{ site.social.github }}" class="social-link pf-v6-c-button pf-m-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://github.com/sponsors/maximilianoPizarro" class="social-link pf-v6-c-button pf-m-primary sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">GitHub Sponsors</a>
+          <a href="{{ site.contact.linkedin_url }}" class="connect-btn connect-btn--primary" target="_blank" rel="noopener noreferrer">{{ site.contact.linkedin_label }}</a>
+          {% if site.author.email != "" %}
+          <a href="mailto:{{ site.author.email }}" class="connect-btn connect-btn--outline">{{ site.contact.email_label | default: "Email" }}</a>
+          {% endif %}
+          <a href="{{ site.contact.github_url }}" class="connect-btn connect-btn--outline" target="_blank" rel="noopener noreferrer">{{ site.contact.github_label }}</a>
+          <a href="https://github.com/sponsors/maximilianoPizarro" class="connect-btn connect-btn--sponsor sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">GitHub Sponsors</a>
         </div>
       </div>
     </div>

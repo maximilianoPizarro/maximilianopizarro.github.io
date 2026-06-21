@@ -1,0 +1,23 @@
+- name: Red Hat
+  url: https://www.redhat.com/
+  logo: https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-light.svg
+  alt: Red Hat
+  surface: light
+
+- name: CNCF
+  url: https://www.cncf.io/
+  logo: https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg
+  alt: Cloud Native Computing Foundation
+  surface: light
+
+- name: Blockchain Federal Argentina
+  url: https://bfa.ar/
+  logo: https://bfa.ar/themes/bfa/logo.svg
+  alt: Blockchain Federal Argentina
+  surface: dark
+
+- name: Buenos Aires
+  url: https://www.buenosaires.gob.ar/
+  logo: /assets/images/gcba.jpg
+  alt: GCBA — Buenos Aires Ciudad
+  surface: dark

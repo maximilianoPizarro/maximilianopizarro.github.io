@@ -1,0 +1,15 @@
+<section class="collaborations-section pf-v6-c-page__main-section" id="collaborations">
+  <div class="container">
+    <div class="section-heading">
+      <h2 class="section-title">Collaborations</h2>
+      <p class="section-description">Organizations and communities where I contribute and collaborate.</p>
+    </div>
+    <div class="collaborations-grid">
+      {% for org in site.data.collaborations %}
+      <a href="{{ org.url }}" class="collaboration-logo collaboration-logo--{{ org.surface }}" target="_blank" rel="noopener noreferrer" aria-label="{{ org.name }}">
+        <img src="{% if org.logo contains 'http' %}{{ org.logo }}{% else %}{{ org.logo | relative_url }}{% endif %}" alt="{{ org.alt }}" loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -903,3 +903,67 @@ body.pf-v6-c-page {
     max-width: 420px;
   }
 }
+
+/* Collaborations — contrast-safe logo tiles */
+.collaborations-section {
+  background: var(--brand-surface-alt);
+  border-top: 1px solid var(--brand-border);
+}
+
+.collaborations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.collaboration-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--brand-radius);
+  border: 1px solid var(--brand-border);
+  transition: transform 0.2s, box-shadow 0.2s;
+  filter: none;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.collaboration-logo--light {
+  background: #ffffff;
+}
+
+.collaboration-logo--dark {
+  background: #151515;
+  border-color: #2b2b2b;
+}
+
+[data-theme="dark"] .collaboration-logo--light {
+  background: #f5f5f5;
+}
+
+[data-theme="dark"] .collaboration-logo--dark {
+  background: #0d1117;
+  border-color: #3d3d3d;
+}
+
+.collaboration-logo:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--brand-shadow);
+  filter: none;
+  opacity: 1;
+}
+
+.collaboration-logo img {
+  max-height: 52px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.collaboration-logo--dark img {
+  max-height: 56px;
+}

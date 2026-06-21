@@ -175,22 +175,4 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
 
 {% include org-contributions.html %}
 
-<section class="collaborations-section pf-v6-c-page__main-section">
-  <div class="container">
-    <h2 class="section-title">Collaborations</h2>
-    <div class="collaborations-grid">
-      <a href="https://www.redhat.com/" class="collaboration-logo" target="_blank" rel="noopener noreferrer" aria-label="Red Hat">
-        <img src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg" alt="Red Hat" loading="lazy">
-      </a>
-      <a href="https://www.cncf.io/" class="collaboration-logo" target="_blank" rel="noopener noreferrer" aria-label="CNCF">
-        <img src="https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg" alt="CNCF" loading="lazy">
-      </a>
-      <a href="https://bfa.ar/" class="collaboration-logo" target="_blank" rel="noopener noreferrer" aria-label="Blockchain Federal Argentina">
-        <img src="https://bfa.ar/themes/bfa/logo.svg" alt="Blockchain Federal Argentina" loading="lazy">
-      </a>
-      <a href="https://www.buenosaires.gob.ar/" class="collaboration-logo" target="_blank" rel="noopener noreferrer" aria-label="Buenos Aires">
-        <img src="{{ '/assets/images/gcba.jpg' | relative_url }}" alt="GCBA" loading="lazy">
-      </a>
-    </div>
-  </div>
-</section>
+{% include collaborations.html %}

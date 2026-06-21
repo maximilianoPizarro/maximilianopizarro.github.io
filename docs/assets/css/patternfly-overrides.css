@@ -857,3 +857,49 @@ body.pf-v6-c-page {
 .org-list-compact a:hover {
   text-decoration: underline;
 }
+
+/* GitHub readme stats cards */
+.github-stats-section {
+  border-top: 1px solid var(--brand-border);
+}
+
+.github-stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.github-stats-card {
+  display: block;
+  border-radius: var(--brand-radius);
+  overflow: hidden;
+  box-shadow: var(--brand-shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #0d1117;
+  line-height: 0;
+}
+
+.github-stats-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.github-stats-card__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .github-stats-grid {
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
+  .github-stats-card {
+    flex: 1 1 0;
+    max-width: 420px;
+  }
+}

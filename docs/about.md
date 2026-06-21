@@ -80,6 +80,8 @@ permalink: /about/
         </ul>
       </div>
 
+      {% include github-stats.html %}
+
       <div class="about-section">
         <h2>Connect</h2>
         <div class="social-links-large">

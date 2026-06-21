@@ -1,0 +1,28 @@
+{% assign stats = site.data.github_stats %}
+<section class="github-stats-section pf-v6-c-page__main-section section--alt" id="github-stats">
+  <div class="container">
+    <div class="section-heading">
+      <h2 class="section-title">GitHub Statistics</h2>
+      <p class="section-description">Open-source activity and language breakdown from GitHub.</p>
+      <a href="{{ stats.profile_url }}" class="section-link" target="_blank" rel="noopener noreferrer">@{{ stats.username }} →</a>
+    </div>
+    <div class="github-stats-grid">
+      <a href="{{ stats.profile_url }}" class="github-stats-card" target="_blank" rel="noopener noreferrer" aria-label="Top languages on GitHub">
+        <img
+          src="{{ stats.top_langs_url }}"
+          alt="Most Used Languages — {{ stats.username }}"
+          loading="lazy"
+          class="github-stats-card__img"
+        />
+      </a>
+      <a href="{{ stats.profile_url }}" class="github-stats-card" target="_blank" rel="noopener noreferrer" aria-label="GitHub stats">
+        <img
+          src="{{ stats.stats_url }}"
+          alt="GitHub Stats — {{ stats.username }}"
+          loading="lazy"
+          class="github-stats-card__img"
+        />
+      </a>
+    </div>
+  </div>
+</section>

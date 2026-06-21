@@ -49,11 +49,16 @@ Passionate about cloud-native technologies, containerization, and enterprise sol
 ## 📊 GitHub Statistics
 
 <div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maximilianoPizarro&theme=dark&hide=php,html,jupyter,bash%20notebook&count_private=true&show_icons=true&layout=compact)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maximilianoPizarro&show_icons=true&theme=dark&count_private=true)
-
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=maximilianoPizarro&layout=compact&theme=dark&hide=html,php,css&langs_count=6"
+    alt="Top Languages"
+    height="165"
+  />
+  <br />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=maximilianoPizarro&show_icons=true&theme=dark&count_private=true"
+    alt="GitHub Stats"
+  />
 </div>
 
 ---

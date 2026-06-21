@@ -154,17 +154,7 @@ img {
     gap: var(--spacing-lg);
 }
 
-.site-nav a {
-    color: var(--rh-gray-700);
-    font-weight: 500;
-    padding: var(--spacing-xs) 0;
-    position: relative;
-}
-
-.site-nav a:hover,
-.site-nav a.active {
-    color: var(--rh-red);
-}
+/* Nav link colors — see patternfly-overrides.css (.site-nav__link) */
 
 .site-nav a.active::after {
     content: '';
@@ -324,13 +314,13 @@ section {
 .section-title {
     font-size: 2.5rem;
     text-align: center;
-    color: var(--rh-gray-900);
+    color: var(--brand-text, var(--rh-gray-900));
     margin-bottom: var(--spacing-md);
 }
 
 .section-description {
     text-align: center;
-    color: var(--rh-gray-600);
+    color: var(--brand-text-muted, var(--rh-gray-700));
     font-size: 1.125rem;
     max-width: 700px;
     margin: 0 auto var(--spacing-xl);

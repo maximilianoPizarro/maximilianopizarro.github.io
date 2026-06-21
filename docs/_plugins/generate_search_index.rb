@@ -62,6 +62,16 @@ Jekyll::Hooks.register :site, :post_write do |site|
     )
   end
 
+  site.data['redhat_developer_articles']&.each do |article|
+    add_entry.call(
+      article['title'],
+      article['description'],
+      article['url'],
+      article['tags'],
+      'article'
+    )
+  end
+
   site.pages.each do |page|
     next if page.url.nil?
     next if page.url == '/search-index.json' || page.url == '/search.json'

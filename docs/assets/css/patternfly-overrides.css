@@ -7,7 +7,7 @@
   --brand-surface: #ffffff;
   --brand-surface-alt: #f4f4f6;
   --brand-text: #151515;
-  --brand-text-muted: #6a6a6a;
+  --brand-text-muted: #525252;
   --brand-border: #d2d2d2;
   --brand-radius: 8px;
   --brand-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -966,4 +966,92 @@ body.pf-v6-c-page {
 
 .collaboration-logo--dark img {
   max-height: 56px;
+}
+
+/* ---- Contrast & theme fixes (PatternFly + legacy main.css) ---- */
+
+.site-masthead .site-nav a.site-nav__link {
+  color: var(--brand-text);
+}
+
+.site-masthead .site-nav a.site-nav__link:hover,
+.site-masthead .site-nav a.site-nav__link.is-active {
+  color: var(--brand-accent);
+  background: var(--brand-accent-soft);
+}
+
+.masthead-search__input::placeholder {
+  color: var(--brand-text-muted);
+  opacity: 1;
+}
+
+.section-heading .section-title {
+  text-align: left;
+  color: var(--brand-text);
+}
+
+.section-heading .section-description {
+  text-align: left;
+  width: 100%;
+  margin: 0 0 0.5rem;
+  color: var(--brand-text-muted);
+}
+
+.pf-v6-c-card.content-card,
+.content-card.pf-v6-c-card {
+  background-color: var(--brand-surface) !important;
+  color: var(--brand-text);
+  --pf-v6-c-card--BackgroundColor: var(--brand-surface);
+}
+
+.content-card .content-card__title a {
+  color: var(--brand-text);
+}
+
+.content-card .content-card__description {
+  color: var(--brand-text-muted);
+}
+
+.content-card .content-card__subtitle {
+  color: var(--brand-text-muted);
+}
+
+.content-card .pf-v6-c-button.pf-m-link,
+.content-card__link {
+  color: var(--brand-accent);
+}
+
+.content-card .tag-pill {
+  background: var(--brand-surface-alt) !important;
+  color: var(--brand-text) !important;
+  border: 1px solid var(--brand-border);
+}
+
+.section--alt .content-card.pf-v6-c-card {
+  background-color: var(--brand-surface) !important;
+}
+
+.rh-developer-card__badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brand-accent);
+  margin-bottom: 0.35rem;
+}
+
+.hero-subtitle,
+.hero-description {
+  color: var(--brand-text-muted);
+}
+
+[data-theme="dark"] .hero-subtitle strong {
+  color: var(--brand-text);
+}
+
+.pf-v6-c-card__header,
+.pf-v6-c-card__body,
+.pf-v6-c-card__footer {
+  color: inherit;
 }

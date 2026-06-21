@@ -60,7 +60,8 @@
       chart: 'Helm Charts',
       video: 'Videos',
       page: 'Pages',
-      community: 'Communities'
+      community: 'Communities',
+      article: 'Red Hat Developer'
     };
 
     Object.keys(groups).forEach(function (type) {

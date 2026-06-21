@@ -125,26 +125,6 @@
   tags: [OpenShift AI, FastAPI, Angular, OpenVINO]
   link_label: Read docs
 
-- id: zero-trust-rh-developer
-  title: Build a zero trust environment with Red Hat Connectivity Link
-  description: Guide for building a zero trust environment using Red Hat Connectivity Link and OpenShift GitOps with the NeuralBank application.
-  url: https://developers.redhat.com/articles/2026/02/12/build-zero-trust-environment-red-hat-connectivity-link
-  category: security
-  featured: false
-  tags: [Zero Trust, Connectivity Link, GitOps, OpenShift]
-  link_label: Read on Red Hat Developer
-  external: true
-
-- id: token-rate-limit
-  title: Manage AI resource use with TokenRateLimitPolicy
-  description: TokenRateLimitPolicy for limiting rates based on token consumption in LLM APIs — fair use and cost management beyond request-based rate limiting.
-  url: https://developers.redhat.com/articles/2026/02/18/manage-ai-resource-use-tokenratelimitpolicy
-  category: security
-  featured: false
-  tags: [TokenRateLimitPolicy, LLM, Rate Limiting, Red Hat]
-  link_label: Read on Red Hat Developer
-  external: true
-
 - id: rhoai-roadshow
   title: RHOAI Roadshow — From Zero To Hero
   description: Demo showcasing Red Hat OpenShift AI (RHOAI) capabilities and integration with OpenShift.

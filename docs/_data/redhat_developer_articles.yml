@@ -1,0 +1,15 @@
+- id: zero-trust-connectivity-link
+  title: Build a zero trust environment with Red Hat Connectivity Link
+  description: Guide for building a zero trust environment using Red Hat Connectivity Link and OpenShift GitOps with the NeuralBank application — Gateway API, OIDC, and GitOps-driven policies.
+  url: https://developers.redhat.com/articles/2026/02/12/build-zero-trust-environment-red-hat-connectivity-link
+  date: 2026-02-12
+  featured: true
+  tags: [Zero Trust, Connectivity Link, GitOps, OpenShift]
+
+- id: token-rate-limit-policy
+  title: Manage AI resource use with TokenRateLimitPolicy
+  description: Introduces TokenRateLimitPolicy for limiting rates based on token consumption in LLM APIs — fair use and cost management beyond request-based rate limiting.
+  url: https://developers.redhat.com/articles/2026/02/18/manage-ai-resource-use-tokenratelimitpolicy
+  date: 2026-02-18
+  featured: true
+  tags: [TokenRateLimitPolicy, LLM, Rate Limiting, Connectivity Link]

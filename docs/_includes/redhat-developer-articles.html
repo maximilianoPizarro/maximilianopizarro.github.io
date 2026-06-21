@@ -1,0 +1,36 @@
+<section class="pf-v6-c-page__main-section content-section section--alt" id="redhat-developer">
+  <div class="container">
+    <div class="section-heading">
+      <h2 class="section-title">Red Hat Developer Articles</h2>
+      <p class="section-description">Technical articles published on developers.redhat.com — Connectivity Link, zero trust, and AI API governance.</p>
+      <a href="https://developers.redhat.com/search?p=1&sort=most_recent&author=Maximiliano%20Pizarro" class="section-link" target="_blank" rel="noopener noreferrer">All articles on Red Hat Developer →</a>
+    </div>
+    <div class="content-grid">
+      {% for article in site.data.redhat_developer_articles %}
+      <article class="pf-v6-c-card content-card rh-developer-card">
+        <div class="pf-v6-c-card__header">
+          <span class="rh-developer-card__badge">Red Hat Developer</span>
+          <h3 class="content-card__title">
+            <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+          </h3>
+        </div>
+        <div class="pf-v6-c-card__body">
+          <p class="content-card__description">{{ article.description }}</p>
+          {% if article.tags %}
+          <div class="tag-list">
+            {% for tag in article.tags %}
+            <span class="pf-v6-c-label tag-pill">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <div class="pf-v6-c-card__footer">
+          <a href="{{ article.url }}" class="pf-v6-c-button pf-m-link content-card__link" target="_blank" rel="noopener noreferrer">
+            Read on Red Hat Developer →
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

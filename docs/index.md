@@ -69,6 +69,8 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   </div>
 </section>
 
+{% include redhat-developer-articles.html %}
+
 <section class="pf-v6-c-page__main-section content-section section--alt">
   <div class="container">
     <div class="section-heading">

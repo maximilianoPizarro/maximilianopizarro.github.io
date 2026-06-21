@@ -7,6 +7,8 @@ permalink: /projects/
 
 {% include section-header.html title="Projects & Documentation" description="Explore workshops, GitHub Pages documentation, and external articles on OpenShift, integration, AI/MCP, and security." %}
 
+{% include redhat-developer-articles.html %}
+
 <section class="pf-v6-c-page__main-section content-section">
   <div class="container">
     {% capture project_tags %}GitOps,MCP,AI,OpenShift,Integration,Security,Helm,Connectivity Link,Developer Hub,bootc,Service Mesh{% endcapture %}

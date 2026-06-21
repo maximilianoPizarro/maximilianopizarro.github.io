@@ -45,12 +45,12 @@ body.pf-v6-c-page {
   color: var(--brand-text);
   background: var(--brand-surface);
   /* Portfolio uses document scroll — not PatternFly's nested 100vh page chrome */
-  display: block;
-  height: auto;
-  min-height: 100vh;
-  max-height: none;
-  overflow-x: hidden;
-  overflow-y: visible;
+  display: block !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
 }
 
 html {
@@ -64,7 +64,7 @@ html {
 
 .pf-v6-c-page__main-container,
 .main-content {
-  display: block;
+  display: block !important;
   max-height: none !important;
   height: auto !important;
   overflow: visible !important;
@@ -72,8 +72,10 @@ html {
   border: none !important;
   border-radius: 0 !important;
   background: transparent !important;
-  grid-area: unset !important;
+  background-color: transparent !important;
+  grid-area: auto !important;
   align-self: auto !important;
+  max-width: 100vw !important;
 }
 
 .pf-v6-c-page__main-section {

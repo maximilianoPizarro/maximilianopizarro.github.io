@@ -1,6 +1,6 @@
 - name: Red Hat
   url: https://www.redhat.com/
-  logo: https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-light.svg
+  logo: /assets/images/redhat-logo.svg
   alt: Red Hat
   surface: light
 

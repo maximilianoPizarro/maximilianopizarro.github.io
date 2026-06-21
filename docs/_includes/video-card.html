@@ -1,0 +1,18 @@
+<div class="video-card" data-tags="{{ video.tags | join: ',' | downcase }}" data-category="{{ video.category }}">
+  <div class="video-card__wrapper lazy-video" data-youtube-id="{{ video.youtube_id }}">
+    <button type="button" class="video-card__play" aria-label="Play {{ video.title }}">
+      <img src="https://i.ytimg.com/vi/{{ video.youtube_id }}/hqdefault.jpg" alt="" loading="lazy" class="video-card__thumb">
+      <span class="video-card__play-icon" aria-hidden="true">▶</span>
+    </button>
+  </div>
+  <div class="video-card__info">
+    <h3 class="video-card__title">{{ video.title }}</h3>
+    {% if video.tags %}
+    <div class="tag-list">
+      {% for tag in video.tags %}
+      <span class="pf-v6-c-label tag-pill">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

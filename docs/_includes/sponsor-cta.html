@@ -1,0 +1,22 @@
+{% assign s = site.data.sponsor %}
+<section class="sponsor-cta sponsor-cta--{{ include.variant | default: 'strip' }}" aria-label="GitHub Sponsors">
+  <div class="container">
+    <div class="pf-v6-c-card sponsor-card">
+      <div class="sponsor-card__content">
+        <div class="sponsor-card__text">
+          <span class="sponsor-card__eyebrow">GitHub Sponsors · Goal {{ s.goal }} {{ s.goal_label }}</span>
+          <h2 class="sponsor-card__headline">{{ s.headline }}</h2>
+          <p class="sponsor-card__description">{{ s.description }}</p>
+        </div>
+        <div class="sponsor-card__actions">
+          <a href="{{ s.url }}" class="pf-v6-c-button pf-m-primary sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">
+            {{ s.cta_primary }}
+          </a>
+          <a href="{{ s.url }}" class="pf-v6-c-button pf-m-secondary sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">
+            {{ s.cta_secondary }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

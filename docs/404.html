@@ -4,16 +4,19 @@ title: 404 - Page Not Found
 permalink: /404.html
 ---
 
-<div class="error-page">
-    <div class="container">
-        <div style="text-align: center; padding: 4rem 0;">
-            <h1 style="font-size: 6rem; color: #CC0000; margin-bottom: 1rem;">404</h1>
-            <h2 style="font-size: 2rem; margin-bottom: 1rem;">Page Not Found</h2>
-            <p style="color: #6A6A6A; margin-bottom: 2rem;">
-                The page you're looking for doesn't exist or has been moved.
-            </p>
-            <a href="{{ '/' | relative_url }}" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #CC0000; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Go to Homepage</a>
-        </div>
-    </div>
-</div>
+{% include section-header.html title="404 — Page Not Found" description="The page you're looking for doesn't exist or has been moved." %}
 
+<section class="pf-v6-c-page__main-section content-section">
+  <div class="container error-page" style="text-align: center;">
+    <p style="font-size: 4rem; color: var(--brand-accent, #cc0000); margin: 0;">404</p>
+    <div style="margin: 2rem 0; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+      <a href="{{ '/' | relative_url }}" class="pf-v6-c-button pf-m-primary">Go to Homepage</a>
+      <a href="{{ '/search/' | relative_url }}" class="pf-v6-c-button pf-m-secondary">Search the site</a>
+      <a href="{{ '/projects/' | relative_url }}" class="pf-v6-c-button pf-m-link">Browse projects</a>
+    </div>
+    <div class="search-page" style="max-width: 480px; margin: 0 auto;">
+      <input type="search" id="search-page-input" class="pf-v6-c-form-control" placeholder="Search projects, operators, charts…" aria-label="Search site">
+      <div id="search-results" class="search-results" style="text-align: left; margin-top: 1rem;"></div>
+    </div>
+  </div>
+</section>

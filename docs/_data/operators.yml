@@ -1,0 +1,35 @@
+- id: openshift-integration-operator
+  title: OpenShift Integration Operator
+  description: The missing lifecycle layer for Apache Camel on OpenShift — design with Kaoto, deploy with GitOps (Tekton + ArgoCD), observe with OpenTelemetry. Kubernetes-native alternative to n8n for integration workflows.
+  operatorhub_url: https://operatorhub.io/operator/openshift-integration-operator
+  docs_url: https://maximilianopizarro.github.io/openshift-integration-operator/
+  github_repo: https://github.com/maximilianoPizarro/openshift-integration-operator
+  version: "0.7.0"
+  capability: Full Lifecycle
+  openssf_badge: true
+  featured: true
+  tags: [Camel, SonataFlow, Kaoto, GitOps, Integration]
+
+- id: kairos-operator
+  title: Kairos Operator
+  description: AI-powered Kubernetes resource optimizer with Server-Side Apply, ArgoCD-safe multi-cluster governance, HPA/KEDA/VPA coexistence, and approval workflows.
+  operatorhub_url: https://operatorhub.io/operator/kairos-operator
+  docs_url: https://maximilianopizarro.github.io/kairos-operator/
+  github_repo: https://github.com/maximilianopizarro/kairos-operator
+  version: "2.0.1"
+  capability: Full Lifecycle
+  openssf_badge: false
+  featured: true
+  tags: [AI, FinOps, GitOps, Autoscaling]
+
+- id: jhipster-online-operator
+  title: JHipster Online Operator
+  description: Kubernetes operator for JHipster Online — web-based code generation with JHipster 9, Quarkus, JDL Studio, JDL AI, and optional MCP HTTP workers.
+  operatorhub_url: https://operatorhub.io/operator/jhipster-online-operator
+  docs_url: https://maximilianopizarro.github.io/jhipster-online-operator/
+  github_repo: https://github.com/maximilianoPizarro/jhipster-online-operator
+  version: "2.41.1"
+  capability: Full Lifecycle
+  openssf_badge: false
+  featured: true
+  tags: [JHipster, Java, Developer Tools, Quarkus]

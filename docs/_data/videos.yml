@@ -1,0 +1,111 @@
+- id: apishift-demo
+  youtube_id: L7euFW1kQB0
+  title: ApiShift — 3scale to Connectivity Link Migration
+  category: integration
+  featured: true
+  tags: [ApiShift, 3scale, Connectivity Link, Kuadrant]
+
+- id: openshift-integration-operator
+  youtube_id: Hb_YtIpe-5I
+  title: OpenShift Integration Operator
+  category: integration
+  featured: true
+  tags: [Camel, Integration, Operator, OpenShift]
+
+- id: neuroface-object-detection
+  youtube_id: E52h4-aS5Rg
+  title: NeuroFace — Object Detection & Facial Recognition Demo
+  category: ai
+  featured: false
+  tags: [NeuroFace, AI, OpenShift]
+
+- id: rhbk-neuroface-flow
+  youtube_id: _PcsflxvJWY
+  title: RHBK NeuroFace — Biometric Authentication Flow
+  category: security
+  featured: false
+  tags: [RHBK, NeuroFace, Biometrics]
+
+- id: neuroface-action
+  youtube_id: lvFu5u7slXg
+  title: NeuroFace — Facial Recognition in Action
+  category: ai
+  featured: false
+  tags: [NeuroFace, Facial Recognition]
+
+- id: video-yxoa
+  youtube_id: YXOaY-pXajE
+  title: OpenShift & Cloud-Native Demo
+  category: platform
+  featured: false
+  tags: [OpenShift, Demo]
+
+- id: video-bo3z
+  youtube_id: Bo3ZKwXQKI4
+  title: Red Hat Technologies Workshop
+  category: platform
+  featured: false
+  tags: [Red Hat, Workshop]
+
+- id: video-opmk
+  youtube_id: OpmKvai22BQ
+  title: Kubernetes & OpenShift Tutorial
+  category: platform
+  featured: false
+  tags: [Kubernetes, OpenShift]
+
+- id: video-428x
+  youtube_id: 428x2gyuRG0
+  title: DevOps & GitOps Practices
+  category: platform
+  featured: false
+  tags: [GitOps, DevOps]
+
+- id: video-m11w
+  youtube_id: m11wvN2-d1Y
+  title: Application Platform Demo
+  category: platform
+  featured: false
+  tags: [Application Platform]
+
+- id: video-b7xb
+  youtube_id: b7xbcTAGNIQ
+  title: OpenShift Deployment Walkthrough
+  category: platform
+  featured: false
+  tags: [OpenShift, Deployment]
+
+- id: video-1gsc
+  youtube_id: 1GScYbnaixI
+  title: Cloud-Native Architecture
+  category: platform
+  featured: false
+  tags: [Cloud Native, Architecture]
+
+- id: video-qi4w
+  youtube_id: qi4WPiWuGbQ
+  title: Helm Charts on OpenShift
+  category: platform
+  featured: false
+  tags: [Helm, OpenShift]
+
+- id: video-m8d0
+  youtube_id: M8D0dORuPDM
+  title: MCP & AI on OpenShift
+  category: ai
+  featured: true
+  tags: [MCP, AI, OpenShift]
+
+- id: video-sdzl
+  youtube_id: SDzLeBEiOG0
+  title: OpenShift Lightspeed Integration
+  category: ai
+  featured: false
+  tags: [Lightspeed, MCP]
+
+- id: video-u1nt
+  youtube_id: U1NT6ZbUckQ
+  title: Connectivity Link & Gateway API
+  category: integration
+  featured: false
+  tags: [Connectivity Link, Gateway API]

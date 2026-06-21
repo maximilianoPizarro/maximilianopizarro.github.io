@@ -1,0 +1,48 @@
+- type: sponsor
+  title: Support my open-source work
+  description: Help reach 10 monthly sponsors on GitHub Sponsors.
+  url: https://github.com/sponsors/maximilianoPizarro
+  cta: Sponsor on GitHub
+  accent: sponsor
+
+- type: project
+  title: Hybrid Mesh Platform
+  description: Hybrid service mesh patterns across OpenShift clusters.
+  url: https://maximilianopizarro.github.io/hybrid-mesh-platform/
+  cta: Explore docs
+  accent: integration
+
+- type: operator
+  title: OpenShift Integration Operator
+  description: Camel + SonataFlow lifecycle with Kaoto and GitOps.
+  url: /operators/
+  cta: View operators
+  accent: operator
+
+- type: project
+  title: ApiShift
+  description: Migrate from 3scale to Connectivity Link with AI.
+  url: https://everything-is-code.github.io/apishift/
+  cta: View ApiShift
+  accent: integration
+
+- type: chart
+  title: OpenShift Integration Operator Chart
+  description: Install from Artifact Hub with a single helm install.
+  url: https://artifacthub.io/packages/helm/openshift-integration-operator/openshift-integration-operator
+  cta: View on Artifact Hub
+  accent: chart
+
+- type: project
+  title: RHEL VM bootc Golden Path
+  description: Self-service RHEL VMs on OpenShift Virtualization.
+  url: https://maximilianopizarro.github.io/golden-path-rhel-bootc/
+  cta: Read docs
+  accent: platform
+
+- type: video
+  title: OpenShift Integration Operator
+  description: Watch the latest demo on YouTube.
+  url: https://www.youtube.com/watch?v=Hb_YtIpe-5I
+  cta: Watch video
+  accent: video

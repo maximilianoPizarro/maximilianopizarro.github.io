@@ -1,24 +1,39 @@
-<header class="site-header">
-    <div class="container">
-        <div class="header-content">
-            <a href="{{ '/' | relative_url }}" class="site-logo">
-                <h1 class="site-title">{{ site.title }}</h1>
-                {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
-            </a>
-            <nav class="site-nav">
-                <ul>
-                    {% for item in site.navigation %}
-                    <li>
-                        <a href="{{ item.url | relative_url }}" 
-                           {% if page.url == item.url %}class="active"{% endif %}
-                           {% if item.url contains '#' %}data-scroll="true"{% endif %}>
-                            {{ item.title }}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
+<header class="site-masthead pf-v6-c-masthead" role="banner">
+  <div class="container masthead-inner">
+    <button type="button" class="masthead-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span class="masthead-toggle__bar"></span>
+      <span class="masthead-toggle__bar"></span>
+      <span class="masthead-toggle__bar"></span>
+    </button>
 
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="site-logo__name">{{ site.title }}</span>
+      {% if site.tagline %}<span class="site-logo__tagline">{{ site.tagline | truncate: 60 }}</span>{% endif %}
+    </a>
+
+    <div class="masthead-search">
+      <label class="visually-hidden" for="header-search">Search site</label>
+      <input type="search" id="header-search" class="pf-v6-c-form-control masthead-search__input" placeholder="Search…" autocomplete="off" aria-label="Search site">
+      <div id="header-search-results" class="header-search-results" hidden></div>
+    </div>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul class="site-nav__list">
+        {% for item in site.navigation %}
+        <li>
+          <a href="{{ item.url | relative_url }}"
+             class="site-nav__link{% if page.url == item.url %} is-active{% endif %}"
+             {% if page.url == item.url %}aria-current="page"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <button type="button" id="theme-toggle" class="theme-toggle pf-v6-c-button pf-m-plain" aria-label="Toggle dark mode">
+      <span class="theme-toggle__icon theme-toggle__icon--light" aria-hidden="true">☀</span>
+      <span class="theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true">☾</span>
+    </button>
+  </div>
+</header>

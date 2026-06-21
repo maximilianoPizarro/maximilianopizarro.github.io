@@ -1,0 +1,209 @@
+- id: apishift
+  title: ApiShift
+  subtitle: 3scale to Connectivity Link Migration
+  description: AI-powered migration platform from Red Hat 3scale to Connectivity Link (Kuadrant). Quarkus backend with MCP tool calling, Angular 18 frontend, kuadrantctl CLI integration, and shared/dual/dedicated gateway strategies.
+  url: https://everything-is-code.github.io/apishift/
+  category: integration
+  featured: true
+  tags: [ApiShift, AI, MCP, Kuadrant, Connectivity Link]
+  link_label: View docs
+
+- id: hybrid-mesh-platform
+  title: Hybrid Mesh Platform
+  description: Documentation and patterns for hybrid service mesh connectivity across OpenShift clusters with Gateway API, GitOps, and multi-cluster governance.
+  url: https://maximilianopizarro.github.io/hybrid-mesh-platform/
+  category: integration
+  featured: true
+  tags: [Service Mesh, Hybrid Cloud, GitOps, OpenShift]
+  link_label: Read docs
+
+- id: golden-path-rhel-bootc
+  title: RHEL VM bootc — Golden Path
+  description: Backstage Software Template for Red Hat Developer Hub — self-service RHEL VMs on OpenShift Virtualization with GitOps, bootc image-mode RHEL, and optional Connectivity Link.
+  url: https://maximilianopizarro.github.io/golden-path-rhel-bootc/
+  category: platform
+  featured: true
+  tags: [bootc, OpenShift Virtualization, GitOps, Developer Hub]
+  link_label: Read docs
+
+- id: from-3scale-connectivity-link
+  title: From 3scale to Connectivity Link
+  description: Migration workshop from Red Hat 3scale API Management to Connectivity Link (Kuadrant). OIDC and API Key authentication, rate limiting, GitOps, and Developer Hub Software Template.
+  url: https://maximilianopizarro.github.io/from-3scale-to-connectivity-link/modules/index.html
+  category: integration
+  featured: true
+  tags: [3scale, Connectivity Link, Kuadrant, OpenShift]
+  link_label: Read workshop
+
+- id: event-driven-architecture
+  title: Event-Driven Architecture Live
+  description: CDC pipeline on OpenShift with Kafka (KRaft), Debezium, Apache Camel + Kaoto, SonataFlow, Apicurio Registry, Grafana, Service Mesh, and OpenShift Lightspeed MCP tools.
+  url: https://maximilianopizarro.github.io/field-sourced-content-template/
+  category: integration
+  featured: false
+  tags: [Kafka, Debezium, CDC, OpenShift]
+  link_label: Read docs
+
+- id: developer-hub-zero-hero
+  title: From Zero To Hero with Red Hat Developer Hub
+  description: OpenShift Commons Gathering Buenos Aires 2026 workshop — Developer Hub, Tekton, ArgoCD GitOps, Connectivity Link, Developer Lightspeed, and MCP Gateway.
+  url: https://maximilianopizarro.github.io/test-drive-pe-oscg/modules/index.html
+  category: platform
+  featured: false
+  tags: [Developer Hub, Lightspeed, MCP Gateway, OpenShift]
+  link_label: Read workshop
+
+- id: n8n-helm-chart
+  title: n8n Helm Chart for Kubernetes & OpenShift
+  description: Deploy n8n workflow automation with AI capabilities, OpenShift MCP Server integration, Mailpit email testing, and Developer Sandbox support.
+  url: https://maximilianopizarro.github.io/n8n-helm-chart/
+  category: ai
+  featured: false
+  tags: [n8n, Helm, MCP, OpenShift]
+  link_label: Read docs
+
+- id: librechat-helm
+  title: LibreChat Helm Chart for OpenShift
+  description: Multi-model AI chat platform — LibreChat with LiteLLM proxy, MCP, MongoDB, PostgreSQL (pgvector), Meilisearch, and RAG API on Red Hat UBI 9.
+  url: https://maximilianopizarro.github.io/librechat/
+  category: ai
+  featured: false
+  tags: [LibreChat, AI, Helm, OpenShift]
+  link_label: Read docs
+
+- id: connectivity-link-architecture
+  title: Connectivity Link — Architecture AI/MCP
+  description: Zero Trust Architecture with OpenShift GitOps, OpenShift Lightspeed, LiteLLM, MCP Gateway (38 federated tools), vLLM CPU fallback, and 17 n8n workflows.
+  url: https://connectivity-link-137eba.gitlab.io/architecture/
+  category: security
+  featured: true
+  tags: [Connectivity Link, MCP Gateway, Zero Trust, OpenShift]
+  link_label: View architecture
+
+- id: openshift-mcp-server
+  title: OpenShift MCP Server
+  description: Enterprise MCP Server for OpenShift Lightspeed — dual server deployment with 40+ tools for monitoring, deployment, and performance testing.
+  url: https://maximilianopizarro.github.io/openshift-mcp-server/
+  category: ai
+  featured: true
+  tags: [MCP, OpenShift Lightspeed, Quarkus, Kubernetes]
+  link_label: Read docs
+
+- id: showroom-docs-mcp
+  title: Showroom Docs MCP Server
+  description: Quarkus MCP Server for OpenShift Lightspeed — indexes 46 Red Hat documents, exposing 4 MCP tools for intelligent documentation via chat.
+  url: https://maximilianopizarro.github.io/showroom-docs-mcp/
+  category: ai
+  featured: false
+  tags: [MCP, Quarkus, OpenShift Lightspeed, Helm]
+  link_label: Read docs
+
+- id: rhbk-datagrid
+  title: RHBK + Data Grid — High Availability
+  description: Helm chart for Red Hat Build of Keycloak in HA mode with Red Hat Data Grid as external distributed cache and PostgreSQL.
+  url: https://maximilianopizarro.github.io/rhbk-datagrid-sample/
+  category: security
+  featured: false
+  tags: [RHBK, Data Grid, High Availability, Helm]
+  link_label: Read docs
+
+- id: rhbk-neuroface
+  title: RHBK NeuroFace Biometric Flow
+  description: Keycloak with biometric facial recognition via NeuroFace — delegated user creation, webcam enrollment, and 2FA facial verification on OpenShift.
+  url: https://maximilianopizarro.github.io/rhbk-biometric-flow/
+  category: security
+  featured: false
+  tags: [RHBK, Keycloak SPI, Facial 2FA, OpenShift]
+  link_label: Read docs
+
+- id: neuroface
+  title: NeuroFace
+  description: Facial recognition and object detection with FastAPI and Angular 17 — OpenCV, OpenVINO, LBPH/dlib, YOLOv4-tiny on Red Hat UBI9 for OpenShift.
+  url: https://maximilianopizarro.github.io/neuroface/
+  category: ai
+  featured: false
+  tags: [OpenShift AI, FastAPI, Angular, OpenVINO]
+  link_label: Read docs
+
+- id: zero-trust-rh-developer
+  title: Build a zero trust environment with Red Hat Connectivity Link
+  description: Guide for building a zero trust environment using Red Hat Connectivity Link and OpenShift GitOps with the NeuralBank application.
+  url: https://developers.redhat.com/articles/2026/02/12/build-zero-trust-environment-red-hat-connectivity-link
+  category: security
+  featured: false
+  tags: [Zero Trust, Connectivity Link, GitOps, OpenShift]
+  link_label: Read on Red Hat Developer
+  external: true
+
+- id: token-rate-limit
+  title: Manage AI resource use with TokenRateLimitPolicy
+  description: TokenRateLimitPolicy for limiting rates based on token consumption in LLM APIs — fair use and cost management beyond request-based rate limiting.
+  url: https://developers.redhat.com/articles/2026/02/18/manage-ai-resource-use-tokenratelimitpolicy
+  category: security
+  featured: false
+  tags: [TokenRateLimitPolicy, LLM, Rate Limiting, Red Hat]
+  link_label: Read on Red Hat Developer
+  external: true
+
+- id: rhoai-roadshow
+  title: RHOAI Roadshow — From Zero To Hero
+  description: Demo showcasing Red Hat OpenShift AI (RHOAI) capabilities and integration with OpenShift.
+  url: https://maximilianopizarro.github.io/rhoai-roadshow-from-zero-to-hero/#/
+  category: ai
+  featured: false
+  tags: [RHOAI, OpenShift, AI/ML, Red Hat]
+  link_label: View demo
+
+- id: nfl-wallet
+  title: NFL Stadium Wallet
+  description: Centralized digital wallet for NFL stadiums — Vue 3 + .NET 8 APIs, Helm chart, Connectivity Link, and Dev Spaces.
+  url: https://maximilianopizarro.github.io/NFL-Wallet/
+  category: platform
+  featured: false
+  tags: [OpenShift, Helm, Connectivity Link, Kubernetes]
+  link_label: Read docs
+
+- id: red-hat-chat
+  title: Red Hat Chat
+  description: AI Conversations with Red Hat Design System — deploy locally with Podman or on OpenShift using container images from Quay.io.
+  url: https://maximilianopizarro.github.io/LibreChat-RedHat/
+  category: ai
+  featured: false
+  tags: [OpenShift, Podman, AI, Red Hat]
+  link_label: Read docs
+
+- id: connectivity-link
+  title: Connectivity Link
+  description: Security Microservice with Connectivity Link using OpenID Connect (OIDC). Zero Trust Architecture with OpenShift GitOps.
+  url: https://maximilianopizarro.github.io/connectivity-link/
+  category: security
+  featured: false
+  tags: [Security, OIDC, GitOps, OpenShift]
+  link_label: Read docs
+
+- id: workshop-pipelines
+  title: Workshop OpenShift Pipelines
+  description: Helm Chart example on Red Hat OpenShift — CI/CD practices with OpenShift Pipelines and GitOps workflows.
+  url: https://maximilianopizarro.github.io/workshop-pipelines/
+  category: platform
+  featured: false
+  tags: [Pipelines, Helm, CI/CD, OpenShift]
+  link_label: Read docs
+
+- id: stadium-wallet
+  title: Stadium Wallet — Complete Documentation
+  description: Installation, testing and architecture guide — digital wallet ecosystem on OpenShift with GitOps, OSSM3 Ambient Mode, Connectivity Link and Developer Hub.
+  url: https://maximilianopizarro.github.io/stadium-wallet/
+  category: platform
+  featured: false
+  tags: [OpenShift, GitOps, Connectivity Link, OSSM3]
+  link_label: Read docs
+
+- id: nfl-wallet-gitops
+  title: NFL Wallet GitOps
+  description: GitOps repository for Stadium Wallet — Argo CD Applications, Kustomize overlays, and multi-cluster setup with ACM.
+  url: https://maximilianopizarro.github.io/nfl-wallet-gitops/
+  category: platform
+  featured: false
+  tags: [GitOps, Argo CD, Kustomize, OpenShift]
+  link_label: Read docs

@@ -1,0 +1,33 @@
+<article class="pf-v6-c-card pf-m-compact content-card operator-card" data-tags="{{ operator.tags | join: ',' | downcase }}">
+  <div class="pf-v6-c-card__header">
+    <div class="pf-v6-c-card__title">
+      <h3 class="content-card__title">{{ operator.title }}</h3>
+      {% if operator.version %}<span class="pf-v6-c-label pf-m-blue">v{{ operator.version }}</span>{% endif %}
+      {% if operator.openssf_badge %}
+      <span class="pf-v6-c-label pf-m-green openssf-badge" title="OpenSSF Best Practices">OpenSSF</span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="pf-v6-c-card__body">
+    <p class="content-card__description">{{ operator.description }}</p>
+    {% if operator.capability %}
+    <p class="operator-meta"><strong>Capability:</strong> {{ operator.capability }}</p>
+    {% endif %}
+    {% if operator.tags %}
+    <div class="tag-list">
+      {% for tag in operator.tags %}
+      <span class="pf-v6-c-label tag-pill" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="pf-v6-c-card__footer operator-card__actions">
+    <a href="{{ operator.operatorhub_url }}" class="pf-v6-c-button pf-m-primary pf-m-sm" target="_blank" rel="noopener noreferrer" data-analytics="operator_install_click">OperatorHub</a>
+    {% if operator.docs_url %}
+    <a href="{{ operator.docs_url }}" class="pf-v6-c-button pf-m-secondary pf-m-sm" target="_blank" rel="noopener noreferrer">Docs</a>
+    {% endif %}
+    {% if operator.github_repo %}
+    <a href="{{ operator.github_repo }}" class="pf-v6-c-button pf-m-link pf-m-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+    {% endif %}
+  </div>
+</article>

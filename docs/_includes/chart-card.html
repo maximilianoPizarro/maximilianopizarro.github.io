@@ -1,0 +1,22 @@
+<a href="{{ chart.url }}" class="pf-v6-c-card pf-m-compact content-card chart-card" target="_blank" rel="noopener noreferrer" data-tags="{{ chart.tags | join: ',' | downcase }}">
+  <div class="pf-v6-c-card__header">
+    <div class="pf-v6-c-card__title">
+      <h3 class="content-card__title">{{ chart.title }}</h3>
+    </div>
+  </div>
+  <div class="pf-v6-c-card__body">
+    {% if chart.badge_url %}
+    <div class="chart-badge">
+      <img src="{{ chart.badge_url }}" alt="{{ chart.title }} on Artifact Hub" loading="lazy">
+    </div>
+    {% endif %}
+    <p class="content-card__description">{{ chart.description }}</p>
+    {% if chart.tags %}
+    <div class="tag-list">
+      {% for tag in chart.tags %}
+      <span class="pf-v6-c-label tag-pill" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</a>

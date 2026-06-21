@@ -7,6 +7,7 @@ Passionate about cloud-native technologies, containerization, and enterprise sol
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximiliano-gregorio-pizarro-consultor-it)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maximilianoPizarro)
 [![Website](https://img.shields.io/badge/Website-CC0000?style=for-the-badge&logo=redhat&logoColor=white)](https://maximilianopizarro.github.io)
+[![Sponsor](https://img.shields.io/badge/Sponsor-DB61A2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/maximilianoPizarro)
 
 ---
 
@@ -57,6 +58,22 @@ Passionate about cloud-native technologies, containerization, and enterprise sol
 
 ---
 
+## Operators on OperatorHub
+
+- **[OpenShift Integration Operator](https://operatorhub.io/operator/openshift-integration-operator)** — Apache Camel + SonataFlow lifecycle with Kaoto, Tekton, ArgoCD, OpenTelemetry
+- **[Kairos Operator](https://operatorhub.io/operator/kairos-operator)** — AI-powered Kubernetes resource optimizer, ArgoCD-safe
+- **[JHipster Online Operator](https://operatorhub.io/operator/jhipster-online-operator)** — JHipster 9 code generation on OpenShift
+
+---
+
+## Featured Projects
+
+- **[ApiShift](https://everything-is-code.github.io/apishift/)** — AI-powered 3scale to Connectivity Link migration (formerly GateForge)
+- **[Hybrid Mesh Platform](https://maximilianopizarro.github.io/hybrid-mesh-platform/)** — Hybrid service mesh patterns for OpenShift
+- **[RHEL VM bootc — Golden Path](https://maximilianopizarro.github.io/golden-path-rhel-bootc/)** — Developer Hub template for OpenShift Virtualization
+
+---
+
 ## 📚 Featured Articles & Projects
 
 ### 🔴 Red Hat Technologies
@@ -93,6 +110,7 @@ Passionate about cloud-native technologies, containerization, and enterprise sol
 
 ### 📦 Helm Charts & Artifact Hub
 
+[![OpenShift Integration Operator](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openshift-integration-operator)](https://artifacthub.io/packages/helm/openshift-integration-operator/openshift-integration-operator)
 [![n8n OpenShift](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/n8n-openshift)](https://artifacthub.io/packages/helm/n8n-openshift/n8n)
 [![OpenShift MCP Server](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openshift-mcp-server)](https://artifacthub.io/packages/helm/openshift-mcp-server/openshift-mcp-server)
 [![Showroom Docs MCP](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/showroom-docs-mcp)](https://artifacthub.io/packages/helm/showroom-docs-mcp/showroom-docs-mcp)
@@ -148,7 +166,8 @@ The site is built with Jekyll and features articles on:
 
 - **LinkedIn**: [maximiliano-gregorio-pizarro-consultor-it](https://www.linkedin.com/in/maximiliano-gregorio-pizarro-consultor-it)
 - **GitHub**: [@maximilianoPizarro](https://github.com/maximilianoPizarro)
-- **Website**: [maximilianopizarro.github.io](https://maximilianopizarro.github.io)
+- **GitHub Sponsors**: [Support my open-source work](https://github.com/sponsors/maximilianoPizarro)
+- **Website**: [maximilianopizarro.github.io](https://maximilianopizarro.github.io) — searchable portfolio with Projects, Operators, Charts, and Videos
 
 ---
 

@@ -1,0 +1,81 @@
+intro: "Open-source contributions across Red Hat, Kubernetes, and cloud-native communities — operators, Helm charts, workshops, and platform patterns."
+github_profile: https://github.com/maximilianoPizarro
+
+organizations:
+  - id: redhat-openshift-ecosystem
+    name: redhat-openshift-ecosystem
+    url: https://github.com/redhat-openshift-ecosystem
+    description: OpenShift ecosystem operators, community patterns, and platform integrations.
+    featured: true
+    tags: [OpenShift, Operators, Ecosystem]
+
+  - id: k8s-operatorhub
+    name: k8s-operatorhub
+    url: https://github.com/k8s-operatorhub
+    description: Community Operator catalog and packaging for OperatorHub.io.
+    featured: true
+    tags: [Operators, OperatorHub, Kubernetes]
+
+  - id: everything-is-code
+    name: Everything-is-Code
+    url: https://github.com/Everything-is-Code
+    description: ApiShift and independent open-source tooling for API migration and connectivity.
+    featured: false
+    tags: [ApiShift, Connectivity Link, Open Source]
+
+  - id: redhat-developer
+    name: redhat-developer
+    url: https://github.com/redhat-developer
+    description: Red Hat Developer demos, templates, and application platform content.
+    featured: false
+    tags: [Red Hat Developer, Demos, Platform]
+
+  - id: redhat-developer-demos
+    name: redhat-developer-demos
+    url: https://github.com/redhat-developer-demos
+    description: Hands-on workshops and demo repositories for Red Hat technologies.
+    featured: false
+    tags: [Workshops, Demos, Red Hat]
+
+  - id: openshift-helm-charts
+    name: openshift-helm-charts
+    url: https://github.com/openshift-helm-charts
+    description: Curated Helm charts validated for Red Hat OpenShift deployments.
+    featured: true
+    tags: [Helm, OpenShift, Charts]
+
+  - id: open-telemetry
+    name: open-telemetry
+    url: https://github.com/open-telemetry
+    description: OpenTelemetry observability standards and instrumentation ecosystem.
+    featured: false
+    tags: [OpenTelemetry, Observability, CNCF]
+
+  - id: stolostron
+    name: stolostron
+    url: https://github.com/stolostron
+    description: Red Hat Advanced Cluster Management (ACM) — multi-cluster GitOps and governance.
+    featured: false
+    tags: [ACM, Multi-cluster, GitOps]
+
+  - id: devfile
+    name: devfile
+    url: https://github.com/devfile
+    description: Cloud-native development workspace specification and tooling.
+    featured: false
+    tags: [Devfile, Developer Experience, Kubernetes]
+
+  - id: rh-mad-workshop
+    name: rh-mad-workshop
+    url: https://github.com/rh-mad-workshop
+    description: Red Hat Middleware, Application, and Data workshop materials.
+    featured: false
+    tags: [Workshops, Integration, Red Hat]
+
+  - id: validatedpatterns
+    name: validatedpatterns
+    url: https://github.com/validatedpatterns
+    url_display: validatedpatterns
+    description: Validated deployment patterns for OpenShift — GitOps, ACM, and edge use cases.
+    featured: false
+    tags: [Patterns, GitOps, OpenShift]

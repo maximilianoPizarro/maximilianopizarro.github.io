@@ -1,0 +1,41 @@
+<section class="org-contributions-section pf-v6-c-page__main-section section--alt" id="organizations">
+  <div class="container">
+    <div class="section-heading">
+      <h2 class="section-title">Open Source Communities</h2>
+      <p class="section-description">{{ site.data.organizations.intro }}</p>
+      <a href="{{ site.data.organizations.github_profile }}" class="section-link" target="_blank" rel="noopener noreferrer">View GitHub activity →</a>
+    </div>
+
+    <div class="org-grid">
+      {% for org in site.data.organizations.organizations %}
+        {% if org.featured %}
+        <a href="{{ org.url }}" class="org-card pf-v6-c-card org-card--featured" target="_blank" rel="noopener noreferrer" data-tags="{{ org.tags | join: ',' | downcase }}">
+          <span class="org-card__handle">@{{ org.name }}</span>
+          <p class="org-card__description">{{ org.description }}</p>
+          <div class="tag-list">
+            {% for tag in org.tags %}
+            <span class="pf-v6-c-label tag-pill">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <details class="org-more">
+      {% assign featured_orgs = site.data.organizations.organizations | where: "featured", true %}
+      {% assign more_count = site.data.organizations.organizations.size | minus: featured_orgs.size %}
+      <summary class="org-more__summary">More organizations ({{ more_count }} additional)</summary>
+      <div class="org-grid org-grid--compact">
+        {% for org in site.data.organizations.organizations %}
+          {% unless org.featured %}
+          <a href="{{ org.url }}" class="org-card pf-v6-c-card org-card--compact" target="_blank" rel="noopener noreferrer">
+            <span class="org-card__handle">@{{ org.name }}</span>
+            <p class="org-card__description">{{ org.description }}</p>
+          </a>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </details>
+  </div>
+</section>

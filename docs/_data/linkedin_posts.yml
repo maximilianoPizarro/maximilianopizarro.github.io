@@ -1,0 +1,19 @@
+- title: Extending OpenShift Lightspeed with MCP
+  description: Built an MCP server with Quarkus that turns 46 Red Hat documents into contextual answers for OpenShift Lightspeed using Model Context Protocol instead of traditional RAG.
+  url: https://www.linkedin.com/pulse/extending-openshift-lightspeed-mcp-intelligent-via-chat-pizarro-dynpf/
+  tags: [MCP, OpenShift Lightspeed, Quarkus, AI]
+
+- title: JHipster Online on OperatorHub
+  description: My first operator, JHipster Online, is officially available on OperatorHub with JHipster 8.8.0, generator-jhipster-quarkus 3.4.0, and JDL Studio.
+  url: https://www.linkedin.com/posts/maximiliano-gregorio-pizarro-consultor-it_operatorhub-artifacthub-helm-activity-7349508722932514817-HlpN
+  tags: [OperatorHub, ArtifactHub, Helm, JHipster]
+
+- title: Kuadrant & Connectivity Link
+  description: Kuadrant combines Gateway API and Istio-based gateway controllers to enhance application connectivity with TLS, DNS, authentication, and rate limiting policies.
+  url: https://www.linkedin.com/posts/maximiliano-gregorio-pizarro-consultor-it_kuadrant-connectivitylink-gatewayapi-activity-7345544548695093248-L2On
+  tags: [Kuadrant, ConnectivityLink, GatewayAPI, Istio]
+
+- title: AI Native Development
+  description: Exploring AI native development with Continue and Ollama for enhanced developer productivity and AI-powered coding experiences.
+  url: https://www.linkedin.com/posts/maximiliano-gregorio-pizarro-consultor-it_ainativedevelopment-continue-ollama-activity-7344156385741303808--b7r
+  tags: [AI, Ollama, Development, AI Native]

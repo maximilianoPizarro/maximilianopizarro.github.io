@@ -1,0 +1,25 @@
+<article class="pf-v6-c-card pf-m-compact content-card project-card" data-tags="{{ project.tags | join: ',' | downcase }}">
+  <div class="pf-v6-c-card__header">
+    <div class="pf-v6-c-card__title">
+      <h3 class="content-card__title">
+        <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      </h3>
+      {% if project.subtitle %}<p class="content-card__subtitle">{{ project.subtitle }}</p>{% endif %}
+    </div>
+  </div>
+  <div class="pf-v6-c-card__body">
+    <p class="content-card__description">{{ project.description }}</p>
+    {% if project.tags %}
+    <div class="tag-list">
+      {% for tag in project.tags %}
+      <span class="pf-v6-c-label tag-pill" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="pf-v6-c-card__footer">
+    <a href="{{ project.url }}" class="pf-v6-c-button pf-m-link content-card__link" target="_blank" rel="noopener noreferrer">
+      {{ project.link_label | default: "Read more" }} <span class="pf-v6-c-button__icon">→</span>
+    </a>
+  </div>
+</article>

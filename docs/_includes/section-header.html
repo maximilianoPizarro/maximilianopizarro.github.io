@@ -1,0 +1,7 @@
+<section class="page-hero">
+  <div class="container">
+    {% if include.eyebrow %}<p class="page-hero__eyebrow">{{ include.eyebrow }}</p>{% endif %}
+    <h1 class="page-hero__title">{{ include.title }}</h1>
+    {% if include.description %}<p class="page-hero__description">{{ include.description }}</p>{% endif %}
+  </div>
+</section>

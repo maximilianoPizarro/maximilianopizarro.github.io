@@ -60,11 +60,15 @@ social:
 navigation:
   - title: Home
     url: /
-  - title: Articles
-    url: /articles
-  - title: Artifact Hub
-    url: /#artifact-hub
+  - title: Projects
+    url: /projects/
+  - title: Operators
+    url: /operators/
+  - title: Charts
+    url: /charts/
   - title: Videos
-    url: /#videos
+    url: /videos/
   - title: About
-    url: /about
+    url: /about/
+  - title: Search
+    url: /search/

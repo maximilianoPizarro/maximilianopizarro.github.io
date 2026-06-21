@@ -1,85 +1,95 @@
 ---
 layout: default
 title: About
-description: About Maximiliano Pizarro - Specialist Solution Architect at Red Hat LATAM
-permalink: /about
+description: About Maximiliano Pizarro - Specialist Solution Architect at Red Hat LATAM, open-source operator and Helm chart maintainer.
+permalink: /about/
 ---
 
-<div class="about-page">
-    <div class="container">
-        <h1 class="page-title">About Me</h1>
-        
-        <div class="about-content">
-            <div class="about-header">
-                <div class="about-avatar">
-                    <img src="{{ '/assets/images/max-avatar.png' | relative_url }}" 
-                         alt="Maximiliano Pizarro" 
-                         class="about-avatar-image"
-                         loading="lazy">
-                </div>
-                <div class="about-intro">
-                    <h2>{{ site.author.title }}</h2>
-                    <p class="about-company">{{ site.author.company }}</p>
-                    <p class="about-description">
-                        Passionate about cloud-native technologies, containerization, and enterprise solutions. 
-                        Specializing in Red Hat OpenShift, Application Platform, and DevOps practices.
-                    </p>
-                </div>
-            </div>
-            
-            <div class="about-section">
+{% include section-header.html title="About Me" description="Solution Architect building production-grade operators, Helm charts, and platform tooling for Kubernetes and OpenShift." %}
 
-            <div class="about-section">
-                <h2>Technologies & Expertise</h2>
-                <div class="tech-list">
-                    <div class="tech-category">
-                        <h3>Cloud & Containers</h3>
-                        <ul>
-                            <li>Red Hat OpenShift</li>
-                            <li>Kubernetes</li>
-                            <li>Docker & Podman</li>
-                            <li>Helm Charts</li>
-                        </ul>
-                    </div>
-                    <div class="tech-category">
-                        <h3>DevOps & Automation</h3>
-                        <ul>
-                            <li>Ansible</li>
-                            <li>Jenkins</li>
-                            <li>GitOps</li>
-                            <li>CI/CD Pipelines</li>
-                        </ul>
-                    </div>
-                    <div class="tech-category">
-                        <h3>Programming</h3>
-                        <ul>
-                            <li>Java & Spring Boot</li>
-                            <li>Node.js & TypeScript</li>
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about-section">
-                <h2>Connect</h2>
-                <div class="social-links-large">
-                    <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" class="social-link" target="_blank" rel="noopener noreferrer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                        LinkedIn
-                    </a>
-                    <a href="https://github.com/{{ site.social.github }}" class="social-link" target="_blank" rel="noopener noreferrer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                        GitHub
-                    </a>
-                </div>
-            </div>
+<section class="pf-v6-c-page__main-section content-section">
+  <div class="container about-page">
+    <div class="about-content">
+      <div class="about-header">
+        <div class="about-avatar">
+          <img src="{{ '/assets/images/max-avatar.png' | relative_url }}" alt="Maximiliano Pizarro" class="about-avatar-image" loading="lazy">
         </div>
-    </div>
-</div>
+        <div class="about-intro">
+          <h2>{{ site.author.title }}</h2>
+          <p class="about-company">{{ site.author.company }}</p>
+          <p class="about-description">
+            I bridge enterprise-grade Kubernetes and OpenShift infrastructure with AI-native automation.
+            I maintain open-source operators (OpenShift Integration Operator, Kairos, JHipster Online),
+            Helm charts on Artifact Hub, and documentation workshops used by platform teams across LATAM.
+          </p>
+          <p class="about-description">
+            The OpenShift Integration Operator achieved the OpenSSF Best Practices Badge (100% passing level).
+            Independent open-source portfolio — not an official Red Hat website.
+          </p>
+        </div>
+      </div>
 
+      <div class="about-section">
+        <h2>Open Source & Operators</h2>
+        <ul>
+          <li><a href="{{ '/operators/' | relative_url }}">Operators on OperatorHub</a> — Camel/SonataFlow lifecycle, AI resource optimization, JHipster Online</li>
+          <li><a href="{{ '/charts/' | relative_url }}">Helm Charts on Artifact Hub</a> — MCP servers, n8n, LibreChat, integration tooling</li>
+          <li><a href="{{ '/projects/' | relative_url }}">Projects & Documentation</a> — workshops, golden paths, Hybrid Mesh Platform</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Technologies & Expertise</h2>
+        <div class="tech-list">
+          <div class="tech-category">
+            <h3>Cloud & Platform</h3>
+            <ul>
+              <li>Red Hat OpenShift & Virtualization</li>
+              <li>Apache Camel, SonataFlow, Kaoto</li>
+              <li>Service Mesh & Hybrid Mesh Platform</li>
+              <li>Connectivity Link & Gateway API</li>
+            </ul>
+          </div>
+          <div class="tech-category">
+            <h3>DevOps & Automation</h3>
+            <ul>
+              <li>GitOps (Argo CD, Tekton)</li>
+              <li>Helm & Operators (OLM)</li>
+              <li>MCP & OpenShift Lightspeed</li>
+              <li>OpenTelemetry observability</li>
+            </ul>
+          </div>
+          <div class="tech-category">
+            <h3>Development</h3>
+            <ul>
+              <li>Java, Quarkus, Spring Boot</li>
+              <li>Node.js & TypeScript</li>
+              <li>Python & AI tooling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Open Source Communities</h2>
+        <p>Contributions across {{ site.data.organizations.organizations.size }} GitHub organizations including operators, Helm charts, workshops, and validated patterns.</p>
+        <ul class="org-list-compact">
+          {% for org in site.data.organizations.organizations %}
+          <li><a href="{{ org.url }}" target="_blank" rel="noopener noreferrer">@{{ org.name }}</a> — {{ org.description }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Connect</h2>
+        <div class="social-links-large">
+          <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" class="social-link pf-v6-c-button pf-m-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/{{ site.social.github }}" class="social-link pf-v6-c-button pf-m-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/sponsors/maximilianoPizarro" class="social-link pf-v6-c-button pf-m-primary sponsor-link" target="_blank" rel="noopener noreferrer" data-analytics="sponsor_click">GitHub Sponsors</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include sponsor-cta.html variant="strip" %}

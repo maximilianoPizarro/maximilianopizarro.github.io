@@ -1,0 +1,127 @@
+- id: openshift-integration-operator
+  title: OpenShift Integration Operator
+  url: https://artifacthub.io/packages/helm/openshift-integration-operator/openshift-integration-operator
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openshift-integration-operator
+  description: Helm chart for the OpenShift Integration Operator — Apache Camel + SonataFlow lifecycle with Kaoto, Tekton, ArgoCD, and OpenTelemetry.
+  tags: [Operator, Camel, Integration, OpenShift]
+  featured: true
+
+- id: apishift
+  title: ApiShift
+  url: https://artifacthub.io/packages/helm/gateforge/gateforge
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/gateforge
+  description: AI-powered 3scale to Connectivity Link migration platform — Quarkus, Angular 18, MCP.
+  tags: [ApiShift, AI, Kuadrant, Helm]
+  featured: true
+
+- id: n8n-openshift
+  title: n8n OpenShift
+  url: https://artifacthub.io/packages/helm/n8n-openshift/n8n
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/n8n-openshift
+  description: n8n workflow automation Helm Chart for Kubernetes and OpenShift with MCP and AI.
+  tags: [n8n, Automation, MCP, OpenShift]
+  featured: false
+
+- id: openshift-mcp-server
+  title: OpenShift MCP Server
+  url: https://artifacthub.io/packages/helm/openshift-mcp-server/openshift-mcp-server
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openshift-mcp-server
+  description: Enterprise dual MCP Server for OpenShift Lightspeed — 40+ tools, Helm Chart.
+  tags: [MCP, OpenShift Lightspeed, Helm]
+  featured: false
+
+- id: showroom-docs-mcp
+  title: Showroom Docs MCP
+  url: https://artifacthub.io/packages/helm/showroom-docs-mcp/showroom-docs-mcp
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/showroom-docs-mcp
+  description: Quarkus MCP Server for OpenShift Lightspeed — 46 indexed documents, 4 MCP tools.
+  tags: [MCP, Quarkus, Helm]
+  featured: false
+
+- id: rhbk-datagrid
+  title: RHBK Data Grid
+  url: https://artifacthub.io/packages/helm/rhbk-datagrid/rhbk-datagrid
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/rhbk-datagrid
+  description: RHBK High Availability with Red Hat Data Grid and PostgreSQL Helm Chart.
+  tags: [RHBK, Data Grid, HA, Helm]
+  featured: false
+
+- id: rhbk-neuroface
+  title: RHBK NeuroFace
+  url: https://artifacthub.io/packages/helm/rhbk-neuroface/rhbk-neuroface
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/rhbk-neuroface
+  description: RHBK + NeuroFace biometric authentication Helm Chart for OpenShift.
+  tags: [RHBK, NeuroFace, Security, Helm]
+  featured: false
+
+- id: neuroface
+  title: NeuroFace
+  url: https://artifacthub.io/packages/helm/neuroface/neuroface
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/neuroface
+  description: NeuroFace facial recognition service — FastAPI + Angular 17.
+  tags: [AI, FastAPI, Angular, Helm]
+  featured: false
+
+- id: jhipster-online
+  title: JHipster Online
+  url: https://artifacthub.io/packages/helm/jhipster-online/jhipster-online
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/jhipster-online
+  description: JHipster Online Helm Chart for Kubernetes and OpenShift.
+  tags: [JHipster, Java, Helm]
+  featured: false
+
+- id: nfl-wallet
+  title: NFL Wallet
+  url: https://artifacthub.io/packages/helm/nfl-wallet/nfl-wallet
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nfl-wallet
+  description: Stadium Wallet Helm Chart — Vue 3, .NET 8, Connectivity Link.
+  tags: [Wallet, OpenShift, Helm]
+  featured: false
+
+- id: botpress
+  title: Botpress
+  url: https://artifacthub.io/packages/search?repo=botpress
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/botpress
+  description: Botpress Helm Chart repository.
+  tags: [Chatbot, Helm]
+  featured: false
+
+- id: oracle-helm-charts
+  title: Oracle Helm Charts
+  url: https://artifacthub.io/packages/search?repo=oracle-helm-charts
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/oracle-helm-charts
+  description: Oracle database and middleware Helm Charts.
+  tags: [Oracle, Database, Helm]
+  featured: false
+
+- id: workshop-pipelines
+  title: Workshop Pipelines
+  url: https://artifacthub.io/packages/search?repo=workshop-pipelines
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/workshop-pipelines
+  description: OpenShift Pipelines workshop Helm Charts.
+  tags: [Pipelines, CI/CD, Helm]
+  featured: false
+
+- id: librechat-openshift
+  title: LibreChat OpenShift
+  url: https://artifacthub.io/packages/helm/librechat-openshift/librechat
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/librechat-openshift
+  description: Multi-model AI chat platform — LiteLLM, MCP, RAG, UBI 9.
+  tags: [LibreChat, AI, Helm]
+  featured: false
+
+- id: fineract-openshift
+  title: Fineract OpenShift
+  url: https://artifacthub.io/packages/search?repo=fineract-openshift
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fineract-openshift
+  description: Apache Fineract for OpenShift deployment.
+  tags: [Fineract, Fintech, Helm]
+  featured: false
+
+- id: mattermost-team-edition
+  title: Mattermost Team Edition
+  url: https://artifacthub.io/packages/helm/mattermost-team-edition/mattermost-team-edition
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/mattermost-team-edition
+  description: Mattermost team collaboration platform for OpenShift.
+  tags: [Mattermost, Collaboration, Helm]
+  featured: false

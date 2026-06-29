@@ -42,7 +42,7 @@
 
 - type: video
   title: OpenShift Integration Operator
-  description: Watch the latest demo on YouTube.
-  url: https://www.youtube.com/watch?v=Hb_YtIpe-5I
+  description: Full demo — install, console plugin, and your first flow.
+  url: https://www.youtube.com/watch?v=WrBCYtnbf7Q
   cta: Watch video
   accent: video

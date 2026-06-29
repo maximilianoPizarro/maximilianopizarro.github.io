@@ -1,114 +1,143 @@
-- id: apishift-demo
-  youtube_id: L7euFW1kQB0
-  title: ApiShift — 3scale to Connectivity Link Migration
-  description: Live demo of AI-assisted migration from Red Hat 3scale to Connectivity Link with Kuadrant policies and MCP tooling.
-  category: integration
-  featured: true
-  tags: [ApiShift, 3scale, Connectivity Link, Kuadrant]
-
 - id: openshift-integration-operator
-  youtube_id: Hb_YtIpe-5I
-  title: OpenShift Integration Operator
-  description: Walkthrough of the Camel + SonataFlow operator — Kaoto design, Tekton/ArgoCD GitOps deploy, and OpenTelemetry observability.
+  youtube_id: WrBCYtnbf7Q
+  title: OpenShift Integration Operator — Full Demo
+  description: Complete walkthrough of the open-source operator for Apache Camel on OpenShift — install, console plugin, and your first integration flow.
   category: integration
   featured: true
-  tags: [Camel, Integration, Operator, OpenShift]
+  tags: [Camel, Integration, Operator, OpenShift, Kaoto]
+
+- id: connectivity-link-oidc
+  youtube_id: YXOaY-pXajE
+  title: Security Microservice with Connectivity Link (OIDC)
+  description: Zero-trust demo automating Connectivity Link, Service Mesh 3, Red Hat Build of Keycloak, and a full-stack app with OpenShift GitOps.
+  category: integration
+  featured: true
+  tags: [Connectivity Link, OIDC, Keycloak, GitOps]
 
 - id: neuroface-object-detection
   youtube_id: E52h4-aS5Rg
-  title: NeuroFace — Object Detection & Facial Recognition Demo
+  title: NeuroFace — Facial Recognition & Object Detection
+  description: Demo of the NeuroFace Helm chart on OpenShift with facial recognition and object detection powered by OpenVINO.
+  category: ai
+  featured: true
+  tags: [NeuroFace, AI, OpenShift, OpenVINO, Helm]
+
+- id: kaoto-dev-spaces
+  youtube_id: 428x2gyuRG0
+  title: Kaoto on Red Hat Dev Spaces
+  description: Apache Camel visual designer Kaoto integrated in Red Hat Dev Spaces for cloud-native integration development.
+  category: integration
+  featured: true
+  tags: [Kaoto, Camel, Dev Spaces, Integration]
+
+- id: ppe-safety-detection
+  youtube_id: L7euFW1kQB0
+  title: PPE Safety Detection
+  description: NeuroFace module for real-time Personal Protective Equipment monitoring using webcam frames from the Angular frontend.
   category: ai
   featured: false
-  tags: [NeuroFace, AI, OpenShift]
+  tags: [NeuroFace, AI, OpenShift, PPE]
+
+- id: neuroface-pwa
+  youtube_id: lvFu5u7slXg
+  title: NeuroFace PWA on Red Hat OpenShift & OpenShift AI
+  description: Progressive web app deployment on OpenShift with OpenShift AI — available on Artifact Hub and Developer Sandbox.
+  category: ai
+  featured: false
+  tags: [NeuroFace, OpenShift, Helm, OpenShift AI]
 
 - id: rhbk-neuroface-flow
   youtube_id: _PcsflxvJWY
-  title: RHBK NeuroFace — Biometric Authentication Flow
+  title: RHBK NeuroFace Biometric Flow
+  description: Helm chart deploying Red Hat Build of Keycloak 26 with a custom SPI for biometric facial recognition via NeuroFace.
   category: security
   featured: false
-  tags: [RHBK, NeuroFace, Biometrics]
+  tags: [RHBK, NeuroFace, Keycloak, Helm, OpenShift]
 
-- id: neuroface-action
-  youtube_id: lvFu5u7slXg
-  title: NeuroFace — Facial Recognition in Action
-  category: ai
-  featured: false
-  tags: [NeuroFace, Facial Recognition]
-
-- id: video-yxoa
-  youtube_id: YXOaY-pXajE
-  title: OpenShift & Cloud-Native Demo
-  category: platform
-  featured: false
-  tags: [OpenShift, Demo]
-
-- id: video-bo3z
+- id: n8n-openshift
   youtube_id: Bo3ZKwXQKI4
-  title: Red Hat Technologies Workshop
-  category: platform
-  featured: false
-  tags: [Red Hat, Workshop]
-
-- id: video-opmk
-  youtube_id: OpmKvai22BQ
-  title: Kubernetes & OpenShift Tutorial
-  category: platform
-  featured: false
-  tags: [Kubernetes, OpenShift]
-
-- id: video-428x
-  youtube_id: 428x2gyuRG0
-  title: DevOps & GitOps Practices
-  category: platform
-  featured: false
-  tags: [GitOps, DevOps]
-
-- id: video-m11w
-  youtube_id: m11wvN2-d1Y
-  title: Application Platform Demo
-  category: platform
-  featured: false
-  tags: [Application Platform]
-
-- id: video-b7xb
-  youtube_id: b7xbcTAGNIQ
-  title: OpenShift Deployment Walkthrough
-  category: platform
-  featured: false
-  tags: [OpenShift, Deployment]
-
-- id: video-1gsc
-  youtube_id: 1GScYbnaixI
-  title: Cloud-Native Architecture
-  category: platform
-  featured: false
-  tags: [Cloud Native, Architecture]
-
-- id: video-qi4w
-  youtube_id: qi4WPiWuGbQ
-  title: Helm Charts on OpenShift
-  category: platform
-  featured: false
-  tags: [Helm, OpenShift]
-
-- id: video-m8d0
-  youtube_id: M8D0dORuPDM
-  title: MCP & AI on OpenShift
-  description: How Model Context Protocol servers extend OpenShift Lightspeed with federated tools for platform automation and AI-assisted ops.
-  category: ai
-  featured: true
-  tags: [MCP, AI, OpenShift]
-
-- id: video-sdzl
-  youtube_id: SDzLeBEiOG0
-  title: OpenShift Lightspeed Integration
-  category: ai
-  featured: false
-  tags: [Lightspeed, MCP]
-
-- id: video-u1nt
-  youtube_id: U1NT6ZbUckQ
-  title: Connectivity Link & Gateway API
+  title: n8n on OpenShift
+  description: Deploying n8n workflow automation on Red Hat OpenShift — companion to the LinkedIn article on n8n for cloud-native integration.
   category: integration
   featured: false
-  tags: [Connectivity Link, Gateway API]
+  tags: [n8n, OpenShift, Integration, Helm]
+
+- id: librechat-openshift
+  youtube_id: Hb_YtIpe-5I
+  title: LibreChat on Red Hat OpenShift
+  description: Deploying LibreChat — a multi-provider AI chat platform — on Red Hat OpenShift using Helm.
+  category: ai
+  featured: false
+  tags: [LibreChat, AI, OpenShift, Helm]
+
+- id: librechat-fork-openshift
+  youtube_id: SDzLeBEiOG0
+  title: My Fork of LibreChat on Red Hat OpenShift
+  description: Custom LibreChat deployment on OpenShift with multi-provider AI chat, MCP support, and Helm-based installation.
+  category: ai
+  featured: false
+  tags: [LibreChat, AI, OpenShift, MCP]
+
+- id: botpress-openshift
+  youtube_id: DBwNvq491Jw
+  title: Deploy Botpress Server on Red Hat OpenShift
+  description: Helm chart tutorial for deploying Botpress Community Server on Red Hat OpenShift.
+  category: ai
+  featured: false
+  tags: [Botpress, OpenShift, Helm, AI]
+
+- id: developer-hub-tekton
+  youtube_id: M8D0dORuPDM
+  title: Red Hat Developer Hub on Developer Sandbox with Tekton Plugin
+  description: Tutorial deploying Red Hat Developer Hub on Developer Sandbox with the Tekton plugin and a Moodle component.
+  category: platform
+  featured: false
+  tags: [Developer Hub, Tekton, OpenShift, Backstage]
+
+- id: jhipster-eclipse-che
+  youtube_id: OpmKvai22BQ
+  title: JHipster Online on Eclipse Che
+  description: JHipster Online example added to the Eclipse Che examples list — try JHipster code generation in a cloud IDE.
+  category: platform
+  featured: false
+  tags: [JHipster, Eclipse Che, OpenShift]
+
+- id: jhipster-artifact-hub
+  youtube_id: m11wvN2-d1Y
+  title: JHipster Online on Artifact Hub (Developer Sandbox)
+  description: JHipster Online Helm chart published on Artifact Hub — install and try it on Red Hat Developer Sandbox.
+  category: platform
+  featured: false
+  tags: [JHipster, Artifact Hub, Helm, Developer Sandbox]
+
+- id: jhipster-dev-sandbox
+  youtube_id: b7xbcTAGNIQ
+  title: JHipster Online on Red Hat Developer Sandbox
+  description: Creating a JHipster Online environment on Developer Sandbox using Red Hat OpenShift and Dev Spaces.
+  category: platform
+  featured: false
+  tags: [JHipster, Dev Spaces, Developer Sandbox, OpenShift]
+
+- id: application-foundation-openshift
+  youtube_id: qi4WPiWuGbQ
+  title: Red Hat Application Foundation + Red Hat OpenShift
+  description: From developer to operations using Red Hat Application Foundation and OpenShift — the shortest, safest, and most scalable path.
+  category: platform
+  featured: false
+  tags: [Application Foundation, OpenShift, DevOps]
+
+- id: jitsi-google-cloud-shell
+  youtube_id: 1GScYbnaixI
+  title: Deploy Jitsi Meet on Google Cloud Shell
+  description: Step-by-step guide to deploy a Jitsi Meet instance in Google Cloud Shell with a public GitHub repository.
+  category: platform
+  featured: false
+  tags: [Jitsi, Cloud Shell, Google Cloud]
+
+- id: rhug-meetup
+  youtube_id: U1NT6ZbUckQ
+  title: RHUG Argentina — Developer Experience Meetup
+  description: Red Hat User Group Argentina meetup on Application Platform and Developer Experience (DevEx).
+  category: platform
+  featured: false
+  tags: [RHUG, Red Hat, Community, DevEx]

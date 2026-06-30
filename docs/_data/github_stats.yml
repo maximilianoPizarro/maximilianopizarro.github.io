@@ -1,4 +1,4 @@
 username: maximilianoPizarro
-top_langs_url: "https://github-readme-stats.vercel.app/api/top-langs/?username=maximilianoPizarro&layout=compact&theme=dark&hide=html,php,css&langs_count=7"
-stats_url: "https://github-readme-stats.vercel.app/api?username=maximilianoPizarro&show_icons=true&theme=dark&count_private=true"
+top_langs_url: /assets/images/github-top-langs.svg
+stats_url: /assets/images/github-stats.svg
 profile_url: "https://github.com/maximilianoPizarro"

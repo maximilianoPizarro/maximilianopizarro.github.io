@@ -9,7 +9,7 @@
     <div class="github-stats-grid">
       <a href="{{ stats.profile_url }}" class="github-stats-card" target="_blank" rel="noopener noreferrer" aria-label="Top languages on GitHub">
         <img
-          src="{{ stats.top_langs_url }}"
+          src="{{ stats.top_langs_url | relative_url }}"
           alt="Most Used Languages — {{ stats.username }}"
           loading="lazy"
           class="github-stats-card__img"
@@ -17,7 +17,7 @@
       </a>
       <a href="{{ stats.profile_url }}" class="github-stats-card" target="_blank" rel="noopener noreferrer" aria-label="GitHub stats">
         <img
-          src="{{ stats.stats_url }}"
+          src="{{ stats.stats_url | relative_url }}"
           alt="GitHub Stats — {{ stats.username }}"
           loading="lazy"
           class="github-stats-card__img"

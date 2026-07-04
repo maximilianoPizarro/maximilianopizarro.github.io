@@ -57,7 +57,7 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
   <div class="container">
     <div class="section-heading">
       <h2 class="section-title">Flagship Projects</h2>
-      <p class="section-description">Four end-to-end platforms and workshops — installable operators, migration tooling, and reference architectures. <a href="{{ '/projects/' | relative_url }}">Browse all {{ site.data.projects.size }} projects →</a></p>
+      <p class="section-description">Highlighted platforms and workshops — installable operators, migration tooling, and reference architectures. <a href="{{ '/projects/' | relative_url }}">Browse all {{ site.data.projects.size }} projects →</a></p>
     </div>
     <div class="content-grid">
       {% for project in site.data.projects %}

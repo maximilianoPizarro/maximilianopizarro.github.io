@@ -40,6 +40,13 @@
   cta: Read docs
   accent: platform
 
+- type: project
+  title: AI Computer Vision at the Edge
+  description: Validated Pattern workshop — NeuroFace, OpenShift AI, RHACM, and edge inference.
+  url: https://maximilianopizarro.github.io/ia-computer-vision-pages/modules/main/index.html
+  cta: Start workshop
+  accent: platform
+
 - type: video
   title: OpenShift Integration Operator
   description: Full demo — install, console plugin, and your first flow.

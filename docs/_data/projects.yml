@@ -38,6 +38,16 @@
   tags: [3scale, Connectivity Link, Kuadrant, OpenShift]
   link_label: Start workshop
 
+- id: ai-computer-vision-workshop
+  title: AI Computer Vision at the Edge
+  subtitle: Validated Pattern workshop
+  description: Multi-cluster lab guide — RHACM hub-spoke fleet, NeuroFace edge inference with OVMS and YOLO, Skupper and Connectivity Link, native MaaS in OpenShift AI, Argo CD MCP, Vault, and Developer Hub self-service.
+  url: https://maximilianopizarro.github.io/ia-computer-vision-pages/modules/main/index.html
+  category: ai
+  featured: true
+  tags: [OpenShift AI, NeuroFace, RHACM, Computer Vision, Edge, Connectivity Link]
+  link_label: Start workshop
+
 - id: event-driven-architecture
   title: Event-Driven Architecture Live
   description: CDC pipeline on OpenShift with Kafka (KRaft), Debezium, Apache Camel + Kaoto, SonataFlow, Apicurio Registry, Grafana, Service Mesh, and OpenShift Lightspeed MCP tools.

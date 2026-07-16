@@ -10,8 +10,8 @@
 - id: apishift
   title: ApiShift
   subtitle: 3scale migration chart
-  url: https://artifacthub.io/packages/helm/gateforge/gateforge
-  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/gateforge
+  url: https://artifacthub.io/packages/helm/apishift/apishift
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/apishift
   description: AI-powered 3scale to Connectivity Link migration platform — Quarkus, Angular 18, MCP.
   tags: [ApiShift, AI, Kuadrant, Helm]
   featured: true

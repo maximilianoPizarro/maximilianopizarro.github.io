@@ -1,3 +1,11 @@
+- id: quarkus-club-operators-java
+  youtube_id: WwMOUMQyq4s
+  title: "Kubernetes Operators in Java: Quarkus + JOSDK on OpenShift"
+  description: Demo-driven Quarkus Club session — theory, Joke 101 operator on OpenShift Local, and OpenShift Integration Operator from OperatorHub with console plugin and ephemeral Quick Try.
+  category: integration
+  featured: true
+  tags: [Quarkus, JOSDK, Operator, OpenShift, Camel]
+
 - id: openshift-integration-operator
   youtube_id: WrBCYtnbf7Q
   title: OpenShift Integration Operator — Full Demo

@@ -48,6 +48,13 @@
   accent: platform
 
 - type: video
+  title: "Quarkus Club: Operators in Java"
+  description: Live session — Quarkus + JOSDK on OpenShift.
+  url: https://www.youtube.com/live/WwMOUMQyq4s
+  cta: Watch talk
+  accent: video
+
+- type: video
   title: OpenShift Integration Operator
   description: Full demo — install, console plugin, and your first flow.
   url: https://www.youtube.com/watch?v=WrBCYtnbf7Q

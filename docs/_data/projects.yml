@@ -48,6 +48,16 @@
   tags: [OpenShift AI, NeuroFace, RHACM, Computer Vision, Edge, Connectivity Link]
   link_label: Start workshop
 
+- id: quarkus-club-operators-talk
+  title: "Kubernetes Operators in Java"
+  subtitle: Quarkus Club presentation
+  description: Slide deck for the Quarkus Club talk — Quarkus Operator SDK (QOSDK), Fabric8, OLM bundles, Joke 101 workshop, and OpenShift Integration Operator live demo.
+  url: https://maximilianopizarro.github.io/quarkus-club-kubernetes-operators-in-java
+  category: integration
+  featured: false
+  tags: [Quarkus, JOSDK, Operator, OLM, OpenShift]
+  link_label: View slides
+
 - id: event-driven-architecture
   title: Event-Driven Architecture Live
   description: CDC pipeline on OpenShift with Kafka (KRaft), Debezium, Apache Camel + Kaoto, SonataFlow, Apicurio Registry, Grafana, Service Mesh, and OpenShift Lightspeed MCP tools.

@@ -1,3 +1,8 @@
+- title: Kairos Operator is live on OperatorHub
+  description: Kairos Operator v2.1.0 is published on OperatorHub — metrics-driven right-sizing for OpenShift with ArgoCD-safe Server-Side Apply, optional AI autopilot, and a multi-cluster hub console.
+  url: https://www.linkedin.com/pulse/kairos-operator-live-operatorhub-intelligent-resource-pizarro-kyyef/
+  tags: [Kairos, OperatorHub, OpenShift, FinOps, GitOps]
+
 - title: Extending OpenShift Lightspeed with MCP
   description: Built an MCP server with Quarkus that turns 46 Red Hat documents into contextual answers for OpenShift Lightspeed using Model Context Protocol instead of traditional RAG.
   url: https://www.linkedin.com/pulse/extending-openshift-lightspeed-mcp-intelligent-via-chat-pizarro-dynpf/

@@ -9,14 +9,14 @@
   link_label: View docs
 
 - id: rhdh-agent-sandbox-arcade
-  title: Agent-friendly Developer Hub — Arcade Demo
-  subtitle: Interactive Sandbox walkthrough
-  description: Click-through Arcade recording of the full RHDH agent sandbox journey — Hub tool calling, Golden Paths, DevSpaces AI, and Lightspeed on Developer Sandbox.
+  title: Demo Agentic IA Developer Sandbox
+  subtitle: Arcade interactive walkthrough
+  description: Click-through Arcade demo of the agent-friendly Developer Hub journey on OpenShift Developer Sandbox — Lightspeed, MCP tool calling, Golden Paths, and DevSpaces AI.
   url: https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI
   category: ai
-  featured: false
-  tags: [Developer Hub, Arcade, Demo, Developer Sandbox]
-  link_label: Watch demo
+  featured: true
+  tags: [Developer Hub, Arcade, Agentic AI, Developer Sandbox]
+  link_label: Open Arcade
 
 - id: demo-lightwell
   title: Demo Lightwell

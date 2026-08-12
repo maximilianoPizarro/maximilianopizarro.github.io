@@ -13,10 +13,10 @@
   accent: platform
 
 - type: project
-  title: RHDH Sandbox — Arcade Demo
-  description: Interactive click-through of the full agentic journey.
+  title: Demo Agentic IA Developer Sandbox
+  description: Arcade walkthrough — RHDH, Lightspeed, and MCP on Sandbox.
   url: https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI
-  cta: Watch demo
+  cta: Open Arcade
   accent: video
 
 - type: project

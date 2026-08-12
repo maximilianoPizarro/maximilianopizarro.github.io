@@ -11,7 +11,7 @@ permalink: /projects/
 
 <section class="pf-v6-c-page__main-section content-section">
   <div class="container">
-    {% capture project_tags %}GitOps,MCP,AI,OpenShift,Integration,Security,Helm,Connectivity Link,Developer Hub,bootc,Service Mesh{% endcapture %}
+    {% capture project_tags %}GitOps,MCP,AI,OpenShift,Integration,Security,Helm,Connectivity Link,Developer Hub,bootc,Service Mesh,Arcade,Lightwell{% endcapture %}
     {% include tag-filter-toolbar.html tags=project_tags %}
 
     <div class="content-grid" id="projects-grid">

@@ -6,6 +6,27 @@
   accent: sponsor
 
 - type: project
+  title: Agent-friendly Developer Hub
+  description: RHDH 1.10 + Lightspeed + MCP on Developer Sandbox.
+  url: https://maximilianopizarro.github.io/rhdh-agent-sandbox/
+  cta: View docs
+  accent: platform
+
+- type: project
+  title: RHDH Sandbox — Arcade Demo
+  description: Interactive click-through of the full agentic journey.
+  url: https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI
+  cta: Watch demo
+  accent: video
+
+- type: project
+  title: Demo Lightwell
+  description: Secure legacy Java deps with Lightwell on Dev Spaces.
+  url: https://maximilianopizarro.github.io/demo-lightwell/
+  cta: Run demo
+  accent: platform
+
+- type: project
   title: Hybrid Mesh Platform
   description: Hybrid service mesh patterns across OpenShift clusters.
   url: https://maximilianopizarro.github.io/hybrid-mesh-platform/

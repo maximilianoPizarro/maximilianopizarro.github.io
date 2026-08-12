@@ -1,3 +1,45 @@
+- id: rhdh-agent-sandbox
+  title: RHDH Agent Sandbox
+  subtitle: Developer Hub 1.10 on Sandbox
+  url: https://artifacthub.io/packages/helm/rhdh-agent-sandbox/rhdh-agent-sandbox
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/rhdh-agent-sandbox
+  description: Helm chart for Red Hat Developer Hub 1.10 with Lightspeed, LiteLLM, MCP servers, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox.
+  tags: [Developer Hub, Lightspeed, MCP, Helm]
+  featured: true
+
+- id: demo-lightwell
+  title: Demo Lightwell
+  subtitle: Lightwell + Nexus + Pipelines
+  url: https://artifacthub.io/packages/helm/demo-lightwell/demo-lightwell
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/demo-lightwell
+  description: Umbrella Helm chart for the Lightwell Java supply-chain demo — WildFly app, Nexus proxy, Dev Spaces workspace, and Tekton pipelines on OpenShift.
+  tags: [Lightwell, Java, DevSecOps, Helm]
+  featured: true
+
+- id: demo-lightwell-jboss-app
+  title: Demo Lightwell — JBoss App
+  url: https://artifacthub.io/packages/helm/demo-lightwell/jboss-app
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/demo-lightwell
+  description: WildFly/JBoss application chart for the Lightwell validated Maven demo on OpenShift.
+  tags: [Lightwell, WildFly, Java, Helm]
+  featured: false
+
+- id: demo-lightwell-nexus
+  title: Demo Lightwell — Nexus
+  url: https://artifacthub.io/packages/helm/demo-lightwell/nexus
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/demo-lightwell
+  description: Nexus repository chart with maven-lightwell-validated proxy for remediated Java dependencies.
+  tags: [Lightwell, Nexus, Maven, Helm]
+  featured: false
+
+- id: demo-lightwell-devspaces
+  title: Demo Lightwell — DevSpaces Workspace
+  url: https://artifacthub.io/packages/helm/demo-lightwell/devspaces-workspace
+  badge_url: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/demo-lightwell
+  description: OpenShift Dev Spaces workspace chart with RHDA analyze-cves devfile commands for the Lightwell demo.
+  tags: [Lightwell, Dev Spaces, RHDA, Helm]
+  featured: false
+
 - id: openshift-integration-operator
   title: OpenShift Integration Operator
   subtitle: Helm install chart

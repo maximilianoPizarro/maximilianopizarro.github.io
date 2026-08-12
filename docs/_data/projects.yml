@@ -1,3 +1,33 @@
+- id: rhdh-agent-sandbox
+  title: Agent-friendly Developer Hub
+  subtitle: RHDH 1.10 + Lightspeed on Developer Sandbox
+  description: Deploy Red Hat Developer Hub 1.10 with Lightspeed, LiteLLM, MCP tools, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox — includes interactive Arcade walkthrough.
+  url: https://maximilianopizarro.github.io/rhdh-agent-sandbox/
+  category: ai
+  featured: true
+  tags: [Developer Hub, Lightspeed, MCP, DevSpaces, Golden Paths]
+  link_label: View docs
+
+- id: rhdh-agent-sandbox-arcade
+  title: Agent-friendly Developer Hub — Arcade Demo
+  subtitle: Interactive Sandbox walkthrough
+  description: Click-through Arcade recording of the full RHDH agent sandbox journey — Hub tool calling, Golden Paths, DevSpaces AI, and Lightspeed on Developer Sandbox.
+  url: https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI
+  category: ai
+  featured: false
+  tags: [Developer Hub, Arcade, Demo, Developer Sandbox]
+  link_label: Watch demo
+
+- id: demo-lightwell
+  title: Demo Lightwell
+  subtitle: Securing Java CVEs on OpenShift Dev Spaces
+  description: End-to-end WildFly supply-chain demo — Lightwell Network remediations via Nexus, Tekton Pipelines, RHDA/TPA in Dev Spaces, and Quay image publishing with CVE proof vs `.rhlw` coordinates.
+  url: https://maximilianopizarro.github.io/demo-lightwell/
+  category: platform
+  featured: true
+  tags: [Lightwell, Dev Spaces, Nexus, Tekton, Java, DevSecOps]
+  link_label: Run demo
+
 - id: apishift
   title: ApiShift
   subtitle: AI-powered 3scale → Connectivity Link migration

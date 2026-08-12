@@ -12,11 +12,11 @@
   title: Demo Agentic IA Developer Sandbox
   subtitle: Arcade interactive walkthrough
   description: Click-through Arcade demo of the agent-friendly Developer Hub journey on OpenShift Developer Sandbox — Lightspeed, MCP tool calling, Golden Paths, and DevSpaces AI.
-  url: https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI
+  url: https://maximilianopizarro.github.io/demos/agentic-ia-developer-sandbox/
   category: ai
   featured: true
   tags: [Developer Hub, Arcade, Agentic AI, Developer Sandbox]
-  link_label: Open Arcade
+  link_label: Open demo
 
 - id: demo-lightwell
   title: Demo Lightwell

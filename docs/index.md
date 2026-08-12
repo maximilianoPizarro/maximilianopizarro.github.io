@@ -71,6 +71,17 @@ description: Specialist Solution Architect at Red Hat LATAM | OpenShift | Applic
 
 {% include home-writing-teaser.html %}
 
+<section class="pf-v6-c-page__main-section content-section section--alt" id="interactive-demo">
+  <div class="container container--wide">
+    <div class="section-heading">
+      <h2 class="section-title">Interactive Demo</h2>
+      <p class="section-description">Agent-friendly Developer Hub on OpenShift Developer Sandbox — Lightspeed, MCP tool calling, Golden Paths, and DevSpaces AI.</p>
+      <a href="{{ '/demos/agentic-ia-developer-sandbox/' | relative_url }}" class="section-link">Full demo page →</a>
+    </div>
+    {% include arcade-embed.html title="Demo Agentic IA Developer Sandbox" share_id="3eNsUpTwG1SiGKP9kvgI" %}
+  </div>
+</section>
+
 <section class="pf-v6-c-page__main-section content-section">
   <div class="container">
     <div class="section-heading">

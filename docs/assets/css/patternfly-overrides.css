@@ -1454,3 +1454,154 @@ table {
 [data-theme="light"] .hero-title {
   color: var(--brand-text);
 }
+
+/* Wide container for Arcade and other embeds */
+.container--wide {
+  max-width: 1200px;
+}
+
+/* Arcade interactive demo embed */
+.arcade-embed {
+  margin: 1.5rem 0 2rem;
+  border: 1px solid var(--brand-border);
+  border-radius: var(--brand-radius);
+  overflow: hidden;
+  background: #0f0f10;
+  box-shadow: var(--brand-shadow);
+  width: 100%;
+}
+
+.arcade-embed:focus {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 3px;
+}
+
+.arcade-embed__frame {
+  position: relative;
+  width: 100%;
+  background: #151515;
+}
+
+.arcade-embed iframe {
+  width: 100%;
+  height: min(75vh, 820px);
+  min-height: 420px;
+  border: 0;
+  display: block;
+}
+
+.arcade-embed__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  color: var(--brand-text-muted);
+  background: var(--brand-surface-alt);
+  border-top: 1px solid var(--brand-border);
+}
+
+.arcade-embed__hint {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--brand-text-muted);
+  min-width: 5rem;
+}
+
+.arcade-embed__fs {
+  appearance: none;
+  border: 1px solid var(--brand-border);
+  background: var(--brand-surface);
+  color: var(--brand-text);
+  font-family: var(--font-text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.arcade-embed__fs:hover,
+.arcade-embed__fs[aria-pressed="true"] {
+  border-color: var(--brand-accent);
+  color: var(--brand-accent);
+}
+
+.arcade-embed__open {
+  color: var(--brand-accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.arcade-embed__open:hover {
+  text-decoration: underline;
+}
+
+.arcade-embed.is-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.arcade-embed.is-fullscreen .arcade-embed__frame {
+  flex: 1;
+  min-height: 0;
+}
+
+.arcade-embed.is-fullscreen iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+}
+
+body.arcade-fs-open {
+  overflow: hidden;
+}
+
+.arcade-demo-page__fallback {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--brand-text-muted);
+}
+
+.arcade-demo-page__fallback a {
+  color: var(--brand-accent);
+}
+
+.arcade-demo-page__meta {
+  margin: 1.5rem 0 2rem;
+  color: var(--brand-text-muted);
+}
+
+.arcade-demo-page__meta p {
+  margin: 0 0 0.75rem;
+}
+
+.arcade-demo-page__outline h2 {
+  margin-top: 0;
+}
+
+.arcade-demo-page__outline h3 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.arcade-demo-page__outline ol {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.arcade-demo-page__outline li {
+  margin-bottom: 0.35rem;
+}

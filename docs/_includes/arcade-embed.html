@@ -1,0 +1,21 @@
+{% assign arcade_title = include.title | default: "Interactive demo" %}
+{% assign arcade_share_id = include.share_id | default: "3eNsUpTwG1SiGKP9kvgI" %}
+{% assign arcade_url = "https://app.arcade.software/share/" | append: arcade_share_id %}
+{% assign arcade_embed_url = arcade_url | append: "?embed" %}
+
+<div class="arcade-embed" role="region" aria-label="{{ arcade_title }}" tabindex="0">
+  <div class="arcade-embed__frame">
+    <iframe
+      src="{{ arcade_embed_url }}"
+      title="{{ arcade_title }}"
+      loading="lazy"
+      allow="clipboard-write; fullscreen"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="arcade-embed__toolbar">
+    <button type="button" class="arcade-embed__fs" data-arcade-fs aria-label="Toggle fullscreen" aria-pressed="false">Fullscreen</button>
+    <span class="arcade-embed__hint">Esc to exit</span>
+    <a href="{{ arcade_url }}" class="arcade-embed__open" target="_blank" rel="noopener noreferrer">Open in Arcade</a>
+  </div>
+</div>

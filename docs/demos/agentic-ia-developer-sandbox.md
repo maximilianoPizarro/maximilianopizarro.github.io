@@ -10,10 +10,10 @@ permalink: /demos/agentic-ia-developer-sandbox/
 <section class="pf-v6-c-page__main-section content-section arcade-demo-page">
   <div class="container container--wide">
     <p class="arcade-demo-page__fallback">
-      <a href="https://app.arcade.software/share/3eNsUpTwG1SiGKP9kvgI" target="_blank" rel="noopener noreferrer">Open in Arcade</a> if the player does not load.
+      <a href="https://app.arcade.software/share/TpWOUs1YMUqwoA0OxnzS" target="_blank" rel="noopener noreferrer">Open in Arcade</a> if the player does not load.
     </p>
 
-    {% include arcade-embed.html title="Demo Agentic IA Developer Sandbox" share_id="3eNsUpTwG1SiGKP9kvgI" %}
+    {% include arcade-embed.html title="Demo Agentic IA Developer Sandbox" share_id="TpWOUs1YMUqwoA0OxnzS" %}
 
     <div class="arcade-demo-page__meta">
       <p>Interactive recording: <strong>Demo Agentic IA Developer Sandbox</strong> (Arcade).</p>

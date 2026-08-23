@@ -20,13 +20,6 @@
   accent: video
 
 - type: project
-  title: Demo Lightwell
-  description: Secure legacy Java deps with Lightwell on Dev Spaces.
-  url: https://maximilianopizarro.github.io/demo-lightwell/
-  cta: Run demo
-  accent: platform
-
-- type: project
   title: Hybrid Mesh Platform
   description: Hybrid service mesh patterns across OpenShift clusters.
   url: https://maximilianopizarro.github.io/hybrid-mesh-platform/

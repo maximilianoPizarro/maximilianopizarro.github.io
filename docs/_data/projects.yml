@@ -18,16 +18,6 @@
   tags: [Developer Hub, Arcade, Agentic AI, Developer Sandbox]
   link_label: Open demo
 
-- id: demo-lightwell
-  title: Demo Lightwell
-  subtitle: Securing Java CVEs on OpenShift Dev Spaces
-  description: End-to-end WildFly supply-chain demo — Lightwell Network remediations via Nexus, Tekton Pipelines, RHDA/TPA in Dev Spaces, and Quay image publishing with CVE proof vs `.rhlw` coordinates.
-  url: https://maximilianopizarro.github.io/demo-lightwell/
-  category: platform
-  featured: true
-  tags: [Lightwell, Dev Spaces, Nexus, Tekton, Java, DevSecOps]
-  link_label: Run demo
-
 - id: apishift
   title: ApiShift
   subtitle: AI-powered 3scale → Connectivity Link migration

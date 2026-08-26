@@ -70,6 +70,14 @@
   featured: false
   tags: [n8n, OpenShift, Integration, Helm]
 
+- id: librechat-developer-sandbox
+  youtube_id: EKk4EUrPnPI
+  title: Deploy LibreChat on Developer Sandbox
+  description: Full walkthrough deploying LibreChat v0.8.5-rc1 multi-model AI chat on Red Hat OpenShift Developer Sandbox with LiteLLM proxy, Granite, Qwen, and Nemotron models.
+  category: ai
+  featured: true
+  tags: [LibreChat, Developer Sandbox, AI, OpenShift, LiteLLM]
+
 - id: librechat-openshift
   youtube_id: Hb_YtIpe-5I
   title: LibreChat on Red Hat OpenShift

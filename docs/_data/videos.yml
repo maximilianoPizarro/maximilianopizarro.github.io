@@ -1,3 +1,11 @@
+- id: neuroface-connectivity-link-governance
+  youtube_id: R0sY7CixkgQ
+  title: Govern Computer Vision with Connectivity Link — NeuroFace YOLO-PPE on OpenShift
+  description: Walkthrough of the ia-computer-vision Validated Pattern on a hub-only OpenShift cluster — NeuroFace YOLO-PPE object detection with API governance via Connectivity Link.
+  category: ai
+  featured: true
+  tags: [NeuroFace, Connectivity Link, OpenShift AI, YOLO, Computer Vision]
+
 - id: quarkus-club-operators-java
   youtube_id: WwMOUMQyq4s
   title: "Kubernetes Operators in Java: Quarkus + JOSDK on OpenShift"

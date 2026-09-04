@@ -1,7 +1,7 @@
 - id: rhdh-agent-sandbox
   title: Agent-friendly Developer Hub
   subtitle: RHDH 1.10 + Lightspeed on Developer Sandbox
-  description: Deploy Red Hat Developer Hub 1.10 with Lightspeed, LiteLLM, MCP tools, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox — includes interactive Arcade walkthrough.
+  description: Deploy Red Hat Developer Hub 1.10 with Lightspeed, LiteLLM, MCP tools, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox — includes interactive walkthrough on Red Hat Interact.
   url: https://maximilianopizarro.github.io/rhdh-agent-sandbox/
   category: ai
   featured: true
@@ -10,12 +10,12 @@
 
 - id: rhdh-agent-sandbox-arcade
   title: Demo Agentic IA Developer Sandbox
-  subtitle: Arcade interactive walkthrough
-  description: Click-through Arcade demo of the agent-friendly Developer Hub journey on OpenShift Developer Sandbox — Lightspeed, MCP tool calling, Golden Paths, and DevSpaces AI.
+  subtitle: Red Hat Interact walkthrough
+  description: Click-through interactive demo of the agent-friendly Developer Hub journey on OpenShift Developer Sandbox — Lightspeed, MCP tool calling, Golden Paths, and DevSpaces AI.
   url: https://maximilianopizarro.github.io/demos/agentic-ia-developer-sandbox/
   category: ai
   featured: true
-  tags: [Developer Hub, Arcade, Agentic AI, Developer Sandbox]
+  tags: [Developer Hub, Red Hat Interact, Agentic AI, Developer Sandbox]
   link_label: Open demo
 
 - id: apishift

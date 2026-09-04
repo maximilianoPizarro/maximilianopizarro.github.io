@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Demo Agentic IA Developer Sandbox
-description: Interactive Arcade walkthrough of the agent-friendly Red Hat Developer Hub sandbox — Lightspeed, MCP, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox.
+description: Interactive walkthrough of the agent-friendly Red Hat Developer Hub sandbox — Lightspeed, MCP, Golden Paths, and DevSpaces AI on OpenShift Developer Sandbox.
 permalink: /demos/agentic-ia-developer-sandbox/
 ---
 
@@ -10,13 +10,13 @@ permalink: /demos/agentic-ia-developer-sandbox/
 <section class="pf-v6-c-page__main-section content-section arcade-demo-page">
   <div class="container container--wide">
     <p class="arcade-demo-page__fallback">
-      <a href="https://app.arcade.software/share/TpWOUs1YMUqwoA0OxnzS" target="_blank" rel="noopener noreferrer">Open in Arcade</a> if the player does not load.
+      <a href="https://interact.redhat.com/share/TpWOUs1YMUqwoA0OxnzS" target="_blank" rel="noopener noreferrer">Open on Red Hat Interact</a> if the player does not load.
     </p>
 
     {% include arcade-embed.html title="Demo Agentic IA Developer Sandbox" share_id="TpWOUs1YMUqwoA0OxnzS" %}
 
     <div class="arcade-demo-page__meta">
-      <p>Interactive recording: <strong>Demo Agentic IA Developer Sandbox</strong> (Arcade).</p>
+      <p>Interactive recording: <strong>Building Agentic AI in a Developer Sandbox</strong> (Red Hat Interact).</p>
       <p>
         <a href="https://maximilianopizarro.github.io/rhdh-agent-sandbox/demo-script/" class="pf-v6-c-button pf-m-link" target="_blank" rel="noopener noreferrer">Live demo script →</a>
         <a href="https://maximilianopizarro.github.io/rhdh-agent-sandbox/" class="pf-v6-c-button pf-m-link" target="_blank" rel="noopener noreferrer">RHDH Agent Sandbox docs →</a>

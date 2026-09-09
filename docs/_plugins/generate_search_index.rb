@@ -62,6 +62,16 @@ Jekyll::Hooks.register :site, :post_write do |site|
     )
   end
 
+  site.data['portfolio_articles']&.each do |article|
+    add_entry.call(
+      article['title'],
+      article['description'],
+      article['url'],
+      article['tags'],
+      'article'
+    )
+  end
+
   site.data['redhat_developer_articles']&.each do |article|
     add_entry.call(
       article['title'],

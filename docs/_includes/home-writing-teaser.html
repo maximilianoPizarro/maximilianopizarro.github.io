@@ -7,6 +7,20 @@
     </div>
 
     <div class="writing-teaser-grid">
+      {% for article in site.data.portfolio_articles limit:1 %}
+      <article class="pf-v6-c-card content-card portfolio-article-card writing-teaser-card">
+        <div class="pf-v6-c-card__header">
+          <span class="portfolio-article-card__badge">Guide</span>
+          <h3 class="content-card__title">
+            <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+          </h3>
+        </div>
+        <div class="pf-v6-c-card__body">
+          <p class="content-card__description">{{ article.description }}</p>
+        </div>
+      </article>
+      {% endfor %}
+
       {% for article in site.data.redhat_developer_articles limit:2 %}
       <article class="pf-v6-c-card content-card rh-developer-card writing-teaser-card">
         <div class="pf-v6-c-card__header">

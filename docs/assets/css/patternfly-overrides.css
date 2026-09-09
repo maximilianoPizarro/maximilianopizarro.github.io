@@ -963,6 +963,7 @@ table {
 }
 
 .linkedin-post-card__badge,
+.portfolio-article-card__badge,
 .rh-developer-card__badge {
   display: inline-block;
   font-size: 0.7rem;
@@ -993,13 +994,15 @@ table {
   margin-top: auto;
 }
 
-.rh-developer-card.pf-v6-c-card.content-card {
+.rh-developer-card.pf-v6-c-card.content-card,
+.portfolio-article-card.pf-v6-c-card.content-card {
   background-color: var(--brand-surface) !important;
   color: var(--brand-text);
   --pf-v6-c-card--BackgroundColor: var(--brand-surface);
 }
 
 .section--alt .rh-developer-card.pf-v6-c-card.content-card,
+.section--alt .portfolio-article-card.pf-v6-c-card.content-card,
 .section--alt .linkedin-post-card.pf-v6-c-card {
   background-color: var(--brand-surface) !important;
   --pf-v6-c-card--BackgroundColor: var(--brand-surface);

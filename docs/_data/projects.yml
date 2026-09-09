@@ -48,6 +48,16 @@
   tags: [bootc, OpenShift Virtualization, GitOps, Developer Hub]
   link_label: Read docs
 
+- id: 3scale-216-external-db
+  title: 3scale 2.15 → 2.16 migration
+  subtitle: External DB guide for OpenShift admins
+  description: Externalize PostgreSQL and Redis in-cluster before upgrading the 3scale operator to 2.16 — Kustomize bases, runbooks, OpenShift GitOps, and RHACM hub patterns.
+  url: https://maximilianopizarro.github.io/3scale-216-external-db/
+  category: integration
+  featured: true
+  tags: [3scale, OpenShift, PostgreSQL, Redis, GitOps]
+  link_label: Read guide
+
 - id: from-3scale-connectivity-link
   title: From 3scale to Connectivity Link
   subtitle: Hands-on migration workshop

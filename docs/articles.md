@@ -5,7 +5,9 @@ description: LinkedIn articles and Red Hat Developer publications on OpenShift, 
 permalink: /articles/
 ---
 
-{% include section-header.html title="Articles" description="Technical writing on Red Hat Developer and LinkedIn — OpenShift, Connectivity Link, operators, and AI-native platform patterns." %}
+{% include section-header.html title="Articles" description="Technical writing on Red Hat Developer, LinkedIn, and GitHub Pages guides — OpenShift, Connectivity Link, operators, and AI-native platform patterns." %}
+
+{% include portfolio-articles.html %}
 
 {% include redhat-developer-articles.html %}
 

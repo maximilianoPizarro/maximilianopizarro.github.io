@@ -10,6 +10,12 @@
   alt: Cloud Native Computing Foundation
   surface: light
 
+- name: IBM
+  url: https://www.ibm.com/
+  logo: /assets/images/ibm-logo.svg
+  alt: IBM
+  surface: light
+
 - name: Blockchain Federal Argentina
   url: https://bfa.ar/
   logo: https://bfa.ar/themes/bfa/logo.svg

@@ -250,9 +250,9 @@ img {
 .hero-description {
     font-size: 1.125rem;
     color: var(--rh-gray-700);
-    max-width: 700px;
+    max-width: 42rem;
     margin: 0 auto var(--spacing-lg);
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .hero-cta {
@@ -260,6 +260,12 @@ img {
     gap: var(--spacing-md);
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .hero-cta {
+        justify-content: flex-start;
+    }
 }
 
 /* ============================================

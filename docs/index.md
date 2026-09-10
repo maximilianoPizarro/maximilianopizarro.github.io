@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Specialist Solution Architect | OpenShift | Application Platform | Cloud Native Technologies
+description: Specialist Solution Architect at Red Hat | OpenShift | Application Platform | Cloud Native Technologies
 ---
 
 <section class="hero-section">
@@ -12,10 +12,12 @@ description: Specialist Solution Architect | OpenShift | Application Platform | 
       </div>
       <div class="hero-text">
         <h1 class="hero-title">Hi 👋, I'm <span class="highlight">Maximiliano Pizarro</span></h1>
-        <p class="hero-subtitle">{{ site.author.title }}</p>
+        <p class="hero-subtitle">{{ site.author.title }} at {{ site.author.company }}</p>
         <p class="hero-description">
-          I build open-source operators, Helm charts, and platform tools for Kubernetes and OpenShift —
-          from integration lifecycles and service mesh to AI-native MCP automation.
+          Passionate about Kubernetes, OpenShift, and cloud-native automation. I maintain open-source operators
+          and Helm charts on OperatorHub and Artifact Hub — including the OpenShift Integration Operator,
+          Kairos, and ApiShift — and deliver technical workshops, demos, and proofs of concept on Developer Hub
+          and AI-native MCP automation.
         </p>
         <div class="hero-cta">
           <a href="{{ '/projects/' | relative_url }}" class="pf-v6-c-button pf-m-primary">Explore Projects</a>

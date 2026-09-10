@@ -342,6 +342,44 @@ table {
   gap: 2rem;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-description {
+  max-width: 42rem;
+  margin: 0 auto 1rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 56rem;
+    margin-inline: auto;
+    text-align: left;
+  }
+
+  .hero-avatar {
+    flex-shrink: 0;
+  }
+
+  .hero-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .hero-description {
+    margin: 0 0 1rem;
+    max-width: none;
+  }
+
+  .hero-cta {
+    justify-content: flex-start;
+  }
 }
 
 .hero-avatar .avatar-image {

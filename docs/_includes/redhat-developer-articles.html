@@ -2,7 +2,7 @@
   <div class="container">
     <div class="section-heading">
       <h2 class="section-title">Red Hat Developer Articles</h2>
-      <p class="section-description">Technical articles published on developers.redhat.com — Connectivity Link, zero trust, and AI API governance.</p>
+      <p class="section-description">Technical articles and interactive demos published on Red Hat — Connectivity Link, zero trust, AI API governance, and agentic developer sandboxes.</p>
       <a href="https://developers.redhat.com/search?p=1&sort=most_recent&author=Maximiliano%20Pizarro" class="section-link" target="_blank" rel="noopener noreferrer">All articles on Red Hat Developer →</a>
     </div>
     <div class="content-grid">
@@ -10,7 +10,7 @@
       {% if include.limit and forloop.index > include.limit %}{% break %}{% endif %}
       <article class="pf-v6-c-card content-card rh-developer-card">
         <div class="pf-v6-c-card__header">
-          <span class="rh-developer-card__badge">Red Hat Developer</span>
+          <span class="rh-developer-card__badge">{{ article.badge | default: "Red Hat Developer" }}</span>
           <h3 class="content-card__title">
             <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
           </h3>
@@ -28,7 +28,7 @@
         </div>
         <div class="pf-v6-c-card__footer">
           <a href="{{ article.url }}" class="pf-v6-c-button pf-m-link content-card__link" target="_blank" rel="noopener noreferrer">
-            Read on Red Hat Developer →
+            {{ article.link_label | default: "Read on Red Hat Developer →" }}
           </a>
         </div>
       </article>

@@ -1,3 +1,14 @@
+- id: building-agentic-ai-developer-sandbox
+  title: Building Agentic AI in a Developer Sandbox
+  subtitle: Red Hat — interactive demo
+  description: Interactive demo of Red Hat Developer Hub for rapid AI application prototyping on OpenShift Developer Sandbox — Helm chart install, Golden Path agent, Lightspeed chat, DevSpaces AI, and CVE lookup via Security MCP.
+  url: https://www.redhat.com/en/interactive-demo/building-agentic-ai-developer-sandbox
+  date: 2026-09-10
+  featured: true
+  badge: Red Hat
+  link_label: Watch interactive demo →
+  tags: [Developer Hub, Agentic AI, Developer Sandbox, Lightspeed]
+
 - id: zero-trust-connectivity-link
   title: Zero Trust with Connectivity Link
   subtitle: Red Hat Developer — hands-on guide

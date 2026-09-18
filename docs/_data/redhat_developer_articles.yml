@@ -1,3 +1,14 @@
+- id: unlock-self-service-api-credentials-connectivity-link
+  title: Unlock self-service API credentials on Connectivity Link
+  subtitle: Red Hat Developer — learning path
+  description: Hub-only Connectivity Link stack with multi-cloud GitOps — developers mint API keys and OIDC client credentials from Red Hat Developer Hub, with AuthPolicy and tiered rate limits at the Gateway.
+  url: https://developers.redhat.com/learn/unlock-self-service-api-credentials-connectivity-link
+  date: 2026-09-18
+  featured: true
+  badge: Learning Path
+  link_label: Start learning path →
+  tags: [Connectivity Link, Developer Hub, AuthPolicy, GitOps, OIDC]
+
 - id: building-agentic-ai-developer-sandbox
   title: Building Agentic AI in a Developer Sandbox
   subtitle: Red Hat — interactive demo
